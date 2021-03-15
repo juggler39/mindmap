@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+}
+
+.mm {
+    outline: 2px solid #F00;
+}
+.mm-label {
+    color: #FFF;
+    padding: 0 16px;
+}
+
+.mm-moon {
+    background: #000;
+    transition: transform .3s;
+}
+
+.mm-planet:not(.active) .mm-moon {
+
+    transform: none !important;
+}
