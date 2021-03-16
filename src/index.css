@@ -7,12 +7,18 @@
     transform-origin: 0 0;
 }
 .mm-lines,
-.mm-items {
+.mm-items,
+.mm-overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+}
+.mm-overlay {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .3s;
 }
 
 
@@ -23,13 +29,11 @@
 
 .mm-rect {
     fill: none;
-    stroke: #eee;
-    stroke-width: 8;
+    stroke-width: 10;
 }
 .mm-stroke {
     fill: none;
-    stroke: #FFBC1D;
-    stroke-width: 8;
+    stroke-width: 10;
     animation: mm-stroke 2s linear infinite;
 }
 @keyframes mm-stroke {
@@ -38,8 +42,7 @@
 }
 .mm-line {
     fill: none;
-    stroke: #FFBC1D;
-    stroke-width: 8;
+    stroke-width: 10;
     stroke-dasharray: 10;
     animation: mm-line 1s linear infinite;
 }
@@ -64,13 +67,18 @@
     margin-top: calc(var(--r) * -1);
     margin-left: calc(var(--r) * -1);
 }
+.mm-circle {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
 .mm-item {
     transition: opacity .3s;
 }
 .mm-moon {
     border-radius: 50%;
     transition: transform .3s;
-    background: #F00;
 }
 
 
@@ -81,20 +89,22 @@
 */
 
 .mm-image {
-    position: relative;
-    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
 }
 .mm-label {
-    margin: 0;
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 100%;
-    transform: translateY(-50%);
-    font-size: var(--f);
+    position: relative;
     text-align: center;
-    color: #FFF;
-    padding: 0 16px;
+}
+.mm-video {
+    position: relative;
+    animation: mm-video 1s ease infinite;
+}
+@keyframes mm-video {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
 }

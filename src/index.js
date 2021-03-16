@@ -2,6 +2,7 @@ import '@/index.css'
 import Orbit from '@/items/orbit'
 import Sun from '@/items/sun'
 import lines from '@/lines'
+import listeners from '@/listeners'
 
 export default class MindMap {
 
@@ -37,7 +38,6 @@ export default class MindMap {
         this.$node.style.height = this.size + 'px';
         this.$node.classList.add('mm');
         this.$node.style.setProperty('--r', this.options.base.r + 'px');
-        this.$node.style.setProperty('--f', this.options.base.f + 'px');
 
 
         // lines node
@@ -53,6 +53,13 @@ export default class MindMap {
         this.$items = document.createElement('div');
         this.$items.classList.add('mm-items');
         this.$node.appendChild(this.$items);
+
+
+        // create overlay
+
+        this.$overlay = document.createElement('div');
+        this.$overlay.classList.add('mm-overlay');
+        this.$items.appendChild(this.$overlay);
 
 
         // create orbits
@@ -77,6 +84,8 @@ export default class MindMap {
         // create lines
 
         lines(this);
+        listeners(this);
+
 
 
     }

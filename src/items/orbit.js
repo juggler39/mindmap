@@ -40,7 +40,7 @@ export default class Orbit {
         this.map.$lines.appendChild(this.$stroke);
 
         const length = this.$node.getTotalLength();
-        const duration = 1 + Math.random();
+        const duration = length / 1000;
 
         this.$stroke.style.strokeDasharray = length / 4;
         this.$stroke.style.animationDuration = duration + 's';

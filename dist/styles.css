@@ -9,6 +9,7 @@ body {
     margin: 0;
     font-family: 'Nunito', sans-serif;
     background: #F1F1F1;
+    font-size: 16px;
 }
 p {
     margin: 0;
@@ -41,6 +42,30 @@ section {
 .mm {
     font-weight: 900;
 }
+.mm-rect {
+    stroke: #eee;
+}
+.mm-stroke {
+    stroke: #FFBC1D;
+}
+.mm-line {
+    stroke: #FFBC1D;
+}
+.mm-moon {
+    background: #F00;
+}
+.mm-label {
+    color: #FFF;
+    padding: 0 16px;
+    font-size: 32px;
+}
+.mm-video {
+    width: 64px;
+    height: 64px;
+}
+.mm-overlay {
+    background: #F1F1F1;
+}
 
 
 
@@ -50,15 +75,26 @@ section {
 
 .note {
     display: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
     width: 400px;
     background: #FFFFFF;
-    padding: 40px;
-    border-radius: 20px;
+    padding: 2em;
+    border-radius: 1em;
 }
-.note h1 {
-    margin-bottom: 12px;
+.note-title {
+    display: flex;
+    font-size: 2em;
     font-weight: 900;
+}
+.note-title h1 {
     color: #0A69D2;
+    margin-bottom: .5em;
+    font-size: inherit;
+    flex-grow: 1;
+}
+.note-title a {
+    margin-left: 1em;
 }
 
 

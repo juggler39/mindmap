@@ -17,6 +17,7 @@ export default class Planet {
         this.index = options.index;
         this.image = options.image;
         this.label = options.label;
+        this.video = options.video;
         this.note = options.note;
         this.orbit = options.orbit;
         this.map = options.map;
@@ -59,8 +60,12 @@ export default class Planet {
 
         this.$planet.addEventListener('click', () => {
             if (this.active) return this.map.emit('click', this);
-            this.map.planets.forEach(planet => planet.deactivate());
-            this.activate();
+            else this.map.emit('activate', this);
+        })
+
+        this.video && this.$planet.lastElementChild.addEventListener('click', event => {
+            this.map.emit('video', this.video);
+            event.stopPropagation();
         })
 
 

@@ -20,9 +20,7 @@ export default class Sun {
         // listeners
 
         this.$node.addEventListener('click', () => {
-            this.map.planets.forEach(planet => {
-                planet.deactivate();
-            })
+            this.map.emit('deactivate');
         })
 
     }

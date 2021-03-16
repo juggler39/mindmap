@@ -31,6 +31,12 @@ export default {
             $p.classList.add('mm-label');
             $div.appendChild($p);
         }
+        if (options.video) {
+            const $img = document.createElement('img');
+            $img.src = options.map.options.video.image;
+            $img.classList.add('mm-video');
+            $div.appendChild($img);
+        }
         return $div;
     },
 
