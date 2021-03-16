@@ -124,7 +124,11 @@ const MapConfig = {
                 {
                     image: 'images/3.svg',
                     label: 'Fluency',
-                    video: 'https://vimeo.com/523712834/252a4238c8',
+                    video: {
+                        width: 640,
+                        height: 360,
+                        src: 'https://player.vimeo.com/video/523712834'
+                    },
                     note: 'Measuring your child’s fluency is critical to having a complete picture of their literacy skills. Other metrics, like how many pages a week they read or even how well they comprehend the content, do not give you all of the pieces. Having an objective way to measure how well your child reads aloud is the only way to gauge whether they are confident, fluent readers.',
                     moons: [
                         {
@@ -152,7 +156,11 @@ const MapConfig = {
                 {
                     image: 'images/4.svg',
                     label: 'Vocabulary',
-                    video: 'https://vimeo.com/523998312/d9238ba1a0',
+                    video: {
+                        width: 640,
+                        height: 352,
+                        src: 'https://player.vimeo.com/video/523998312'
+                    },
                     note: 'LightSail takes a spiral approach to teaching vocabulary that is immersive and individualized. We integrate vocabulary instruction into the platform in multiple ways, presenting children with new words in a variety of contexts and increasing their comprehension as they encounter these words multiple times. Additionally, the words chosen for your child are completely personalized to their individual Lexile reading comprehension and vocabulary level, which automatically adjusts as they learn.',
                     moons: [
                         {

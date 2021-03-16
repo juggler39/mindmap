@@ -35,7 +35,10 @@ export default class Orbit {
         // create nodes
 
         this.$node = Utils.createRect(this.map.center - this.or, this.or * 2, 'mm-rect');
-        this.$stroke = Utils.createRect(this.map.center - this.or, this.or * 2, 'mm-stroke');
+        this.$stroke = Utils.createRect(this.map.center - this.or, this.or * 2, `mm-stroke`);
+        this.$stroke.classList.add(`level-${this.index}`);
+
+
         this.map.$lines.appendChild(this.$node);
         this.map.$lines.appendChild(this.$stroke);
 

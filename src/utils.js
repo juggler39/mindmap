@@ -40,13 +40,14 @@ export default {
         return $div;
     },
 
-    createLine ({ from, to }, center) {
+    createLine ({ from, to, className }, center) {
         const $line = document.createElementNS(NS, 'line');
         $line.setAttribute('x1', center + from.x);
         $line.setAttribute('y1', center + from.y);
         $line.setAttribute('x2', center + to.x);
         $line.setAttribute('y2', center + to.y);
         $line.classList.add('mm-line');
+        $line.classList.add(className);
         return $line;
     }
 

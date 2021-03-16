@@ -64,7 +64,7 @@ export default class Planet {
         })
 
         this.video && this.$planet.lastElementChild.addEventListener('click', event => {
-            this.map.emit('video', this.video);
+            this.map.emit('video', this);
             event.stopPropagation();
         })
 

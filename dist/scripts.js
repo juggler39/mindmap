@@ -19,19 +19,12 @@
     // ----------------------
 
     function resize () {
-        const section = getComputedStyle($section);
-        const spl = parseFloat(section.getPropertyValue('padding-left'));
-        const spr = parseFloat(section.getPropertyValue('padding-right'));
-        const spt = parseFloat(section.getPropertyValue('padding-top'));
-        const spb = parseFloat(section.getPropertyValue('padding-bottom'));
-        const sw = $section.offsetWidth - spl - spr ;
-        const sh = $section.offsetHeight - spt - spb;
+        const zw = $zoom.offsetWidth;
+        const zh = $zoom.offsetHeight;
         const mw = $map.offsetWidth;
         const mh = $map.offsetHeight;
-        const s = Math.min(sw / mw, sh / mh);
-        $zoom.style.width = mw * s + 'px';
-        $zoom.style.height = mh * s + 'px';
-        $map.style.transform = `scale(${s})`;
+        const s = Math.min(zw / mw, zh / mh);
+        $map.style.transform = ` scale(${s}) translate(-50%, -50%)`;
     }
 
     window.addEventListener('resize', resize);
@@ -79,9 +72,27 @@
     // Video
     // ----------------------
 
-    map.on('video', src => {
-        console.log(src);
+    const $video = document.getElementById('video');
+
+    map.on('video', planet => {
+        const rect = planet.$node.getBoundingClientRect();
+        $video.style.left = window.scrollX + rect.left + rect.width / 2 + 'px'
+        $video.style.top = window.scrollY + rect.top + rect.height / 2 + 'px'
+        $video.src = planet.video.src;
+        $video.height = planet.video.height;
+        $video.width = planet.video.width;
+        $video.style.display = 'block';
     })
+
+
+    document.addEventListener('click', event => {
+        let parent = event.target;
+        while (parent) {
+            if (parent === $video) return;
+            parent = parent.parentNode;
+        }
+        $video.style.display = 'none';
+    }, true);
 
 
 
