@@ -92,6 +92,7 @@
             parent = parent.parentNode;
         }
         $video.style.display = 'none';
+        $video.src = '';
     }, true);
 
 

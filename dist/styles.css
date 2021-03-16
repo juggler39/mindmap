@@ -56,8 +56,6 @@ footer {
 .map {
     position: relative;
     flex-grow: 1;
-    /*display: flex;*/
-    /*flex-flow:;*/
     overflow: hidden;
 }
 .mm {
