@@ -2,7 +2,16 @@ import Utils from '@/utils'
 
 export default class Moon {
 
+
+
+    // ----------------------
+    // Constructor
+    // ----------------------
+
     constructor (options) {
+
+
+        // options
 
         this.index = options.index;
         this.label = options.label;
@@ -10,16 +19,44 @@ export default class Moon {
         this.map = options.map;
         this.planet = options.planet;
 
+
+        // coordinates
+
+        const br = this.map.options.base.r;
+        const mr = br * Math.sqrt(2) + br * this.planet.orbit.ms
         this.a = Math.PI * 2 / this.planet.moons.length * this.index;
-        this.x = this.map.options.base.r * Math.cos(this.a);
-        this.y = this.map.options.base.r * Math.sin(this.a);
+        this.x = mr * Math.cos(this.a);
+        this.y = mr * Math.sin(this.a);
 
-        this.$node = Utils.createCircle(this.x, this.y, this.planet.orbit.ms);
+
+        // create node
+
+        this.$node = Utils.createCircle(this);
         this.$node.classList.add('mm-moon');
-        this.$label = Utils.createLabel(this.label);
-        this.$node.appendChild(this.$label);
         this.planet.$node.appendChild(this.$node);
+        this.deactivate();
 
+
+        // listeners
+
+        this.$node.addEventListener('click', () => {
+            this.map.emit('click', this);
+        })
+
+    }
+
+
+
+    // ----------------------
+    // Methods
+    // ----------------------
+
+    deactivate () {
+        this.$node.style.transform = `translate(0px, 0px) scale(${this.planet.orbit.ms})`
+    }
+
+    activate () {
+        this.$node.style.transform = `translate(${this.x}px, ${this.y}px) scale(${this.planet.orbit.ms})`
     }
 
 }

@@ -5,6 +5,10 @@ const MapConfig = {
         f: 32
     },
 
+    sun: {
+        image: 'images/sun.svg'
+    },
+
     orbits: [
         {
             ms: 0.6,
@@ -168,7 +172,7 @@ const MapConfig = {
                         },
                         {
                             image: 'planets/svg/moon-red.svg',
-                            label: 'Synonym/Definition Builder',
+                            label: 'Synonym / Definition Builder',
                             note: 'Synonym / Definition Builder is a full dictionary that a child can access either from directly inside the books and articles they read by clicking on any word or from anywhere on their dashboard. They can read definitions, see synonyms and parts of speech in a word tree, and see word translations and examples of the word used in sentences.'
                         },
                         {

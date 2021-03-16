@@ -17,9 +17,7 @@ export default class Orbit {
         this.pr = this.map.options.base.r * this.ps;
         this.mr = this.pr * this.ms;
         this.or = this.map.getOrbitRadius(this.index);
-
         this.oR = Math.sqrt(2) * this.or;
-        this.pR = Math.sqrt(2) * (this.pr + this.mr);
 
 
         // create planets
@@ -34,11 +32,20 @@ export default class Orbit {
         });
 
 
-        // create node
+        // create nodes
 
-        this.$node = Utils.createRect(this.map.center - this.or, this.or * 2);
+        this.$node = Utils.createRect(this.map.center - this.or, this.or * 2, 'mm-rect');
+        this.$stroke = Utils.createRect(this.map.center - this.or, this.or * 2, 'mm-stroke');
         this.map.$lines.appendChild(this.$node);
+        this.map.$lines.appendChild(this.$stroke);
 
+        const length = this.$node.getTotalLength();
+        const duration = 1 + Math.random();
+
+        this.$stroke.style.strokeDasharray = length / 4;
+        this.$stroke.style.animationDuration = duration + 's';
+        this.$stroke.style.animationDelay = -duration * Math.random() + 's';
+        this.$stroke.style.setProperty('--offset', -length / 2 + 'px');
 
     }
 

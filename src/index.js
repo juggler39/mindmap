@@ -1,5 +1,7 @@
 import '@/index.css'
 import Orbit from '@/items/orbit'
+import Sun from '@/items/sun'
+import lines from '@/lines'
 
 export default class MindMap {
 
@@ -15,6 +17,7 @@ export default class MindMap {
         // options
 
         this.options = options;
+        this.listeners = [];
 
 
         // center
@@ -62,6 +65,20 @@ export default class MindMap {
             });
         });
 
+
+        // create sun
+
+        this.sun = new Sun({
+            ...this.options.sun,
+            map: this
+        });
+
+
+        // create lines
+
+        lines(this);
+
+
     }
 
 
@@ -76,5 +93,33 @@ export default class MindMap {
         const prev = slice.length ? slice.reduce((result, orbit) => result + orbit.ps * base.r * 2, 0) : 0;
         return base.r + prev + orbits[index].ps * base.r;
     }
+
+    get planets () {
+        return this.orbits.map(orbit => orbit.planets).flat();
+    }
+
+
+
+    // ----------------------
+    // Events
+    // ----------------------
+
+    on (event, handler) {
+        this.listeners[event] = this.listeners[event] || [];
+        this.listeners[event].push(handler);
+    }
+
+    off (event, handler) {
+        if (!this.listeners[event]) return;
+        const index = this.listeners[event].indexOf(handler);
+        if (index > -1) this.listeners[event].splice(index, 1);
+    }
+
+    emit (event, param) {
+        if (!this.listeners[event]) return;
+        this.listeners[event].forEach(handler => handler(param, this));
+    }
+
+
 
 }

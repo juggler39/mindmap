@@ -3,7 +3,16 @@ import Moon from '@/items/moon'
 
 export default class Planet {
 
+
+
+    // ----------------------
+    // Constructor
+    // ----------------------
+
     constructor (options) {
+
+
+        // options
 
         this.index = options.index;
         this.image = options.image;
@@ -19,8 +28,14 @@ export default class Planet {
         this.x = Math.min(Math.max(this.x, -this.orbit.or), this.orbit.or);
         this.y = Math.min(Math.max(this.y, -this.orbit.or), this.orbit.or);
 
-        this.$node = Utils.createCircle(this.x, this.y, this.orbit.ps);
-        this.$node.classList.add('mm-planet');
+
+        // create container
+
+        this.$node = Utils.createNode('mm-item');
+        this.$node.style.transform = `translate(${this.x}px, ${this.y}px) scale(${this.orbit.ps})`
+
+
+        // create moons
 
         this.moons = this.moons.map((options, index) => {
             return new Moon({
@@ -31,12 +46,42 @@ export default class Planet {
             })
         })
 
-        this.$image = Utils.createImage(this.image);
-        this.$label = Utils.createLabel(this.label);
-        this.$node.appendChild(this.$image);
-        this.$node.appendChild(this.$label);
+
+        // create planet
+
+        this.$planet = Utils.createCircle(this);
+        this.$planet.classList.add('mm-planet');
+        this.$node.appendChild(this.$planet);
         this.map.$items.appendChild(this.$node);
 
+
+        // listeners
+
+        this.$planet.addEventListener('click', () => {
+            if (this.active) return this.map.emit('click', this);
+            this.map.planets.forEach(planet => planet.deactivate());
+            this.activate();
+        })
+
+
+    }
+
+
+
+    // ----------------------
+    // Methods
+    // ----------------------
+
+    activate () {
+        this.active = true;
+        this.$node.style.zIndex = 1;
+        this.moons.forEach(moon => moon.activate());
+    }
+
+    deactivate () {
+        this.active = false;
+        this.$node.style.zIndex = '';
+        this.moons.forEach(moon => moon.deactivate());
     }
 
 }

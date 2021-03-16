@@ -1,25 +1,66 @@
+/*
+    Reset
+*/
+
 * {
     box-sizing: border-box;
 }
 body {
+    margin: 0;
     font-family: 'Nunito', sans-serif;
+    background: #F1F1F1;
+}
+p {
+    margin: 0;
+}
+h1 {
+    margin: 0;
+}
+
+
+
+/*
+    Section
+*/
+
+section {
+    height: 100vh;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+/*
+    Map
+*/
+
+.mm {
     font-weight: 900;
 }
 
-.mm {
-    outline: 2px solid #F00;
+
+
+/*
+    Note
+*/
+
+.note {
+    display: none;
+    width: 400px;
+    background: #FFFFFF;
+    padding: 40px;
+    border-radius: 20px;
 }
-.mm-label {
-    color: #FFF;
-    padding: 0 16px;
+.note h1 {
+    margin-bottom: 12px;
+    font-weight: 900;
+    color: #0A69D2;
 }
 
-.mm-moon {
-    background: #000;
-    transition: transform .3s;
-}
 
-.mm-planet:not(.active) .mm-moon {
 
-    transform: none !important;
-}
+

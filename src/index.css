@@ -1,7 +1,10 @@
+/*
+    Common
+*/
+
 .mm {
     position: relative;
     transform-origin: 0 0;
-    transform: scale(0.5);
 }
 .mm-lines,
 .mm-items {
@@ -11,11 +14,47 @@
     width: 100%;
     height: 100%;
 }
+
+
+
+/*
+    Lines
+*/
+
 .mm-rect {
     fill: none;
-    stroke: #000;
-    stroke-width: 10;
+    stroke: #eee;
+    stroke-width: 8;
 }
+.mm-stroke {
+    fill: none;
+    stroke: #FFBC1D;
+    stroke-width: 8;
+    animation: mm-stroke 2s linear infinite;
+}
+@keyframes mm-stroke {
+    0% { stroke-dashoffset: 0; }
+    0% { stroke-dashoffset: var(--offset); }
+}
+.mm-line {
+    fill: none;
+    stroke: #FFBC1D;
+    stroke-width: 8;
+    stroke-dasharray: 10;
+    animation: mm-line 1s linear infinite;
+}
+@keyframes mm-line {
+    0% { stroke-dashoffset: 0; }
+    0% { stroke-dashoffset: 20; }
+}
+
+
+
+/*
+    Items
+*/
+
+.mm-item,
 .mm-circle {
     position: absolute;
     top: 50%;
@@ -25,6 +64,22 @@
     margin-top: calc(var(--r) * -1);
     margin-left: calc(var(--r) * -1);
 }
+.mm-item {
+    transition: opacity .3s;
+}
+.mm-moon {
+    border-radius: 50%;
+    transition: transform .3s;
+    background: #F00;
+}
+
+
+
+
+/*
+    Content
+*/
+
 .mm-image {
     position: relative;
     display: block;
@@ -32,7 +87,6 @@
     height: 100%;
 }
 .mm-label {
-    position: relative;
     margin: 0;
     position: absolute;
     left: 0;
@@ -41,7 +95,6 @@
     transform: translateY(-50%);
     font-size: var(--f);
     text-align: center;
-}
-.mm-moon {
-    border-radius: 50%;
+    color: #FFF;
+    padding: 0 16px;
 }
