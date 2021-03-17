@@ -73,26 +73,49 @@
     // ----------------------
 
     const $video = document.getElementById('video');
+    let player = null;
+
+    function hideVideo () {
+        $video.style.display = 'none';
+        player.destroy();
+    }
 
     map.on('video', planet => {
+
         const rect = planet.$node.getBoundingClientRect();
         $video.style.left = window.scrollX + rect.left + rect.width / 2 + 'px'
         $video.style.top = window.scrollY + rect.top + rect.height / 2 + 'px'
-        $video.src = planet.video.src;
-        $video.height = planet.video.height;
-        $video.width = planet.video.width;
         $video.style.display = 'block';
+
+        player = new Vimeo.Player('video', {
+            url: planet.video.src,
+            width: planet.video.width,
+            height: planet.video.height,
+        });
+
+
+        player.on('timeupdate', function(data) {
+
+            console.log(data.percent)
+            if (data.percent === 1) {
+                console.log('sdsda')
+                // finish();
+            }
+        });
+
+        player.play();
+
     })
 
 
     document.addEventListener('click', event => {
+        if (!player) return;
         let parent = event.target;
         while (parent) {
             if (parent === $video) return;
             parent = parent.parentNode;
         }
-        $video.style.display = 'none';
-        $video.src = '';
+        hideVideo();
     }, true);
 
 
