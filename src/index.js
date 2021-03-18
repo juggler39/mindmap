@@ -1,8 +1,4 @@
 import '@/index.css'
-import Orbit from '@/items/orbit'
-import Sun from '@/items/sun'
-import lines from '@/lines'
-import listeners from '@/listeners'
 
 export default class MindMap {
 
@@ -15,77 +11,62 @@ export default class MindMap {
     constructor ($node, options) {
 
 
-        // options
-
-        this.options = options;
-        this.listeners = [];
-
-
-        // center
-
-        const lastIndex = this.options.orbits.length - 1;
-        const lastOrbit = this.options.orbits[lastIndex];
-        const lastPR = this.options.base.r * lastOrbit.ps * Math.sqrt(2);
-        const lastMr = this.options.base.r * lastOrbit.ps * lastOrbit.ms;
-        this.center = this.getOrbitRadius(lastIndex) + lastPR + lastMr * 2;
-        this.size = this.center * 2;
-
-
-        // root node
-
-        this.$node = $node;
-        this.$node.style.width = this.size + 'px';
-        this.$node.style.height = this.size + 'px';
-        this.$node.classList.add('mm');
-        this.$node.style.setProperty('--r', this.options.base.r + 'px');
-
-
-        // lines node
-
-        this.$lines = document.createElementNS(NS, 'svg');
-        this.$lines.setAttribute('viewBox', `0 0 ${this.size} ${this.size}`);
-        this.$lines.classList.add('mm-lines');
-        this.$node.appendChild(this.$lines);
-
-
-        // items node
-
-        this.$items = document.createElement('div');
-        this.$items.classList.add('mm-items');
-        this.$node.appendChild(this.$items);
-
-
-        // create overlay
-
-        this.$overlay = document.createElement('div');
-        this.$overlay.classList.add('mm-overlay');
-        this.$items.appendChild(this.$overlay);
-
-
-        // create orbits
-
-        this.orbits = this.options.orbits.map((orbit, index) => {
-            return new Orbit({
-                ...orbit,
-                index,
-                map: this
-            });
-        });
-
-
-        // create sun
-
-        this.sun = new Sun({
-            ...this.options.sun,
-            map: this
-        });
-
-
-        // create lines
-
-        lines(this);
-        listeners(this);
-
+        // // options
+        //
+        // this.$node = $node;
+        // this.sr = options.sr;
+        // this.si = options.si;
+        // this.vi = options.vi;
+        // this.stroke = options.stroke;
+        // this.scale = 1;
+        //
+        //
+        // // orbits configuration
+        //
+        // this.orbits = options.orbits.map(orbit => {
+        //     const pr = this.sr * orbit.ps;
+        //     const pR = pr * Math.sqrt(2);
+        //     const mr = pr * orbit.ms;
+        //     return { pr, pR, mr, ...orbit }
+        // })
+        //
+        // this.orbits.slice().reverse().forEach((orbit, i, orbits) => {
+        //     const prev = orbits[i - 1];
+        //     if (prev) orbit.offset = prev.offset + prev.pr + orbit.pr;
+        //     else orbit.offset = orbit.mr * 2 + orbit.pR;
+        // })
+        //
+        //
+        // // set size
+        //
+        // this.size = (this.orbits[0].offset + this.orbits[0].pr + this.sr) * 2;
+        // this.resize();
+        // // function resize () {
+        // //     map.resize($container.offsetWidth, $container.offsetHeight)
+        // // }
+        // //
+        // // window.addEventListener('resize', resize);
+        //
+        //
+        // // create planets
+        //
+        // this.planets = options.planets.map(planet => {
+        //     return new Planet(planet, this);
+        // });
+        //
+        //
+        // // create borders
+        //
+        // this.borders = this.orbits.map((orbit, index) => {
+        //     return new Border(orbit, index, this);
+        // })
+        //
+        //
+        // this.lines = [];
+        // this.sun = {};
+        //
+        // this.$node.classList.add('mm');
+        // this.$node.style.setProperty('--radius', this.sr + 'px');
 
 
     }
@@ -97,15 +78,15 @@ export default class MindMap {
     // ----------------------
 
     getOrbitRadius (index) {
-        const { base, orbits } = this.options;
+        const { sr, orbits } = this.options;
         const slice = orbits.slice(0, index);
-        const prev = slice.length ? slice.reduce((result, orbit) => result + orbit.ps * base.r * 2, 0) : 0;
-        return base.r + prev + orbits[index].ps * base.r;
+        const prev = slice.length ? slice.reduce((result, orbit) => result + orbit.ps * sr * 2, 0) : 0;
+        return sr + prev + orbits[index].ps * sr;
     }
 
-    get planets () {
-        return this.orbits.map(orbit => orbit.planets).flat();
-    }
+    // get planets () {
+    //     return this.orbits.map(orbit => orbit.planets).flat();
+    // }
 
 
 
@@ -127,6 +108,23 @@ export default class MindMap {
     emit (event, param) {
         if (!this.listeners[event]) return;
         this.listeners[event].forEach(handler => handler(param, this));
+    }
+
+
+
+    // ----------------------
+    // API
+    // ----------------------
+
+    resize () {
+        const sw = this.$node.parentNode.offsetWidth / this.size;
+        const sh = this.$node.parentNode.offsetHeight / this.size;
+        this.scale = Math.min(sw, sh);
+        this.width = this.size / (this.scale / sw);
+        this.height = this.size / (this.scale / sh);
+        this.$node.style.width = this.width + 'px';
+        this.$node.style.height = this.height + 'px';
+        this.$node.style.transform = `translate(-50%, -50%) scale(${this.scale})`;
     }
 
 

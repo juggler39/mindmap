@@ -40,6 +40,11 @@ section {
     display: flex;
     flex-flow: column nowrap;
 }
+article {
+    position: relative;
+    flex-grow: 1;
+    overflow: hidden;
+}
 footer {
     background: #222;
     color: #FFFFFF;
@@ -53,16 +58,9 @@ footer {
     Map
 */
 
-.map {
-    position: relative;
-    flex-grow: 1;
-    overflow: hidden;
-}
 .mm {
-    position: absolute;
-    top: 50%;
-    left: 50%;
     font-weight: 900;
+    background: #000;
 }
 .mm-rect {
     stroke: #eee;

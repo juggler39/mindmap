@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        svg {
+            width: 300px;
+            height: 300px;
+            outline: 1px solid #000;
+        }
+        path {
+            stroke-dasharray: 50;
+            animation: path 1s linear infinite;
+        }
+        @keyframes path {
+            0% {stroke-dashoffset: 0}
+            100% {stroke-dashoffset: 100}
+        }
+    </style>
+</head>
+<body>
+
+    <svg viewBox="0 0 300 300">
+        <circle r="100" cx="150" cy="150"></circle>
+        <path id="arc1" fill="none" stroke="#446688" stroke-width="20" />
+    </svg>
+
+    <script>
+
+
+
+        function getCoords (cx, cy, r, deg) {
+            const rad = deg * Math.PI / 180;
+            return {
+                x: cx + (r * Math.cos(rad)),
+                y: cy + (r * Math.sin(rad))
+            };
+        }
+
+        function getArc(cx, cy, r, a1, a2) {
+            const p1 = getCoords(cx, cy, r, a2);
+            const p2 = getCoords(cx, cy, r, a1);
+            const la = a2 - a1 <= 180 ? "0" : "1";
+            return `M ${p1.x} ${p1.y} A ${r} ${r} 0 ${la} 0 ${p2.x} ${p2.y}`
+        }
+
+        document.getElementById("arc1").setAttribute("d", getArc(150, 150, 100, 90, 0));
+
+
+    </script>
+
+</body>
+</html>

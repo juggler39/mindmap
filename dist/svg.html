@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        svg {
+            width: 1000px;
+            outline: 1px solid #F00;
+        }
+
+
+        .mm-border {
+            fill: none;
+            stroke-width: 10;
+        }
+        .mm-planet {
+            fill: #EEE;
+            /*opacity: 0;*/
+        }
+        .mm-la {
+            /*opacity: 0;*/
+        }
+        .mm-ls {
+            /*opacity: 0;*/
+        }
+
+    </style>
+</head>
+<body>
+    <svg viewBox="0 0 1718 1408" xmlns="http://www.w3.org/2000/svg">
+
+
+
+        <!--
+            Defs
+        -->
+
+        <defs>
+
+
+            <!-- gradients -->
+
+            <linearGradient id="g1" x1="0" y1="0" x2="100%" y2="100%" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#FFFFFF" offset="0%" />
+                <stop stop-color="#0A69D2" offset="100%" />
+            </linearGradient>
+
+            <linearGradient id="g2" x1="0" y1="0" x2="100%" y2="100%" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#4DA8FF" offset="15%"/>
+                <stop stop-color="#FFE600" offset="70%"/>
+                <stop stop-color="#FF9900" offset="100%" />
+            </linearGradient>
+
+            <linearGradient id="g3" x1="0" y1="0" x2="100%" y2="100%" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#F305BC" offset="5%"/>
+                <stop stop-color="#DCE742" offset="35%"/>
+                <stop stop-color="#16B9ED" offset="100%" />
+            </linearGradient>
+
+
+            <!-- masks -->
+
+            <mask id="m1">
+                <rect x="454" y="404" width="810" height="600" fill="#FFF"></rect>
+                <rect x="549" y="499" width="620" height="410" fill="#000"></rect>
+            </mask>
+
+            <clipPath id="c1">
+                <rect x="549" y="499" width="620" height="410"></rect>
+            </clipPath>
+
+            <mask id="m3">
+                <rect x="124" y="124" width="1470" height="1160" fill="#FFF"></rect>
+                <rect x="199" y="199" width="1320" height="1010" fill="#000"></rect>
+            </mask>
+
+            <clipPath id="c3">
+                <rect x="199" y="199" width="1320" height="1010"></rect>
+            </clipPath>
+
+
+
+        </defs>
+
+
+
+
+
+
+        <!--
+            Border 1
+        -->
+
+        <g id="b1" stroke="url(#g1)">
+            <rect class="mm-border" x="549" y="499" width="620" height="410"></rect>
+            <g mask="url(#m1)">
+                <circle class="mm-la mm-border" r="90" cx="549" cy="499"></circle>
+                <circle class="mm-la mm-border" r="90" cx="549" cy="909"></circle>
+                <circle class="mm-la mm-border" r="90" cx="1169" cy="909"></circle>
+                <circle class="mm-la mm-border" r="90" cx="1169" cy="499"></circle>
+            </g>
+            <g clip-path="url(#c1)">
+                <circle class="mm-ls mm-border" r="90" cx="549" cy="499"></circle>
+                <circle class="mm-ls mm-border" r="90" cx="549" cy="909"></circle>
+                <circle class="mm-ls mm-border" r="90" cx="1169" cy="909"></circle>
+                <circle class="mm-ls mm-border" r="90" cx="1169" cy="499"></circle>
+            </g>
+        </g>
+
+
+
+        <!--
+            Border 2
+        -->
+
+        <g stroke="url(#g2)" opacity="0">
+            <rect class="mm-border" x="339" y="339" width="1040" height="730"></rect>
+            <circle class="mm-border" r="80" cx="339" cy="339"></circle>
+            <circle class="mm-border" r="80" cx="339" cy="704"></circle>
+            <circle class="mm-border" r="80" cx="339" cy="1069"></circle>
+            <circle class="mm-border" r="80" cx="859" cy="1069"></circle>
+            <circle class="mm-border" r="80" cx="1379" cy="1069"></circle>
+            <circle class="mm-border" r="80" cx="1379" cy="704"></circle>
+            <circle class="mm-border" r="80" cx="1379" cy="339"></circle>
+            <circle class="mm-border" r="80" cx="859" cy="339"></circle>
+        </g>
+
+
+
+        <!--
+            Border 3
+        -->
+
+        <g id="b3" stroke="url(#g3)">
+            <rect class="mm-border" x="199" y="199" width="1320" height="1010"></rect>
+            <g mask="url(#m3)">
+                <circle class="mm-la mm-border" r="70" cx="199" cy="199"></circle>
+                <circle class="mm-la mm-border" r="70" cx="199" cy="1209"></circle>
+                <circle class="mm-la mm-border" r="70" cx="1519" cy="1209"></circle>
+                <circle class="mm-la mm-border" r="70" cx="1519" cy="199"></circle>
+            </g>
+            <g clip-path="url(#c3)">
+                <circle class="mm-ls mm-border" r="70" cx="199" cy="199"></circle>
+                <circle class="mm-ls mm-border" r="70" cx="199" cy="1209"></circle>
+                <circle class="mm-ls mm-border" r="70" cx="1519" cy="1209"></circle>
+                <circle class="mm-ls mm-border" r="70" cx="1519" cy="199"></circle>
+            </g>
+        </g>
+
+
+
+        <!--
+            Planets 1
+        -->
+
+        <circle class="mm-planet" r="85" cx="549" cy="499"></circle>
+        <circle class="mm-planet" r="85" cx="549" cy="909"></circle>
+        <circle class="mm-planet" r="85" cx="1169" cy="909"></circle>
+        <circle class="mm-planet" r="85" cx="1169" cy="499"></circle>
+
+
+
+        <!--
+            Planets 2
+        -->
+
+        <g opacity="0">
+            <circle class="mm-planet" r="75" cx="339" cy="339"></circle>
+            <circle class="mm-planet" r="75" cx="339" cy="704"></circle>
+            <circle class="mm-planet" r="75" cx="339" cy="1069"></circle>
+            <circle class="mm-planet" r="75" cx="859" cy="1069"></circle>
+            <circle class="mm-planet" r="75" cx="1379" cy="1069"></circle>
+            <circle class="mm-planet" r="75" cx="1379" cy="704"></circle>
+            <circle class="mm-planet" r="75" cx="1379" cy="339"></circle>
+            <circle class="mm-planet" r="75" cx="859" cy="339"></circle>
+        </g>
+
+
+
+        <!--
+            Planets 3
+        -->
+
+        <circle class="mm-planet" r="65" cx="199" cy="199"></circle>
+        <circle class="mm-planet" r="65" cx="199" cy="1209"></circle>
+        <circle class="mm-planet" r="65" cx="1519" cy="1209"></circle>
+        <circle class="mm-planet" r="65" cx="1519" cy="199"></circle>
+
+
+
+    </svg>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script>
+
+
+        function animate ($border, rectDuration) {
+
+
+            const $rect = $border.querySelector('rect');
+            const rectLength = $rect.getTotalLength();
+            const rectWidth = +$rect.getAttribute('width');
+            const rectHeight = +$rect.getAttribute('height');
+
+            $rect.setAttribute('stroke-dasharray', rectLength / 2);
+
+            gsap.to($rect, {
+                'stroke-dashoffset': rectLength,
+                repeat: -1,
+                duration: rectDuration,
+                ease: Power0.easeNone
+            })
+
+
+            const $arc = $border.querySelector('.mm-la');
+            const arcLength = $arc.getTotalLength();
+            const shortArcDash = arcLength / 4;
+            const longArcDash = arcLength - shortArcDash;
+            const arcRadius = +$arc.getAttribute('r');
+            const arcDuration = arcRadius * 2 / rectLength * rectDuration;
+            const arcDelay = rectDuration / 2 - arcDuration;
+
+            const $longArcs = $border.querySelectorAll('.mm-la');
+            Array.from($longArcs).forEach($longArc => {
+                $longArc.setAttribute('stroke-dasharray', `${longArcDash} ${arcLength}`);
+                $longArc.setAttribute('stroke-dashoffset', `${-arcLength}`);
+            })
+
+            const $shortArcs = $border.querySelectorAll('.mm-ls');
+            Array.from($shortArcs).forEach($shortArc => {
+                $shortArc.setAttribute('stroke-dasharray', `${shortArcDash} ${arcLength}`);
+                $shortArc.setAttribute('stroke-dashoffset', `${shortArcDash}`);
+            })
+
+
+            function rotate ($arc, angle) {
+                const cx = $arc.getAttribute('cx');
+                const cy = $arc.getAttribute('cy');
+                $arc.setAttribute('transform', `rotate(${angle} ${cx} ${cy})`)
+            }
+
+            rotate($longArcs[3], -270);
+            rotate($longArcs[2], -180);
+            rotate($longArcs[1], -90);
+            rotate($shortArcs[3], -270);
+            rotate($shortArcs[2], -180);
+            rotate($shortArcs[1], -90);
+
+
+            function longArcAnimate ($longArc, seek) {
+                const tl = gsap.timeline({ repeat: -1 });
+                tl.to($longArc, {
+                    'stroke-dashoffset': longArcDash - arcLength,
+                    duration: arcDuration,
+                    ease: Power0.easeNone
+                });
+                tl.to({}, arcDelay, {});
+                tl.to($longArc, {
+                    'stroke-dashoffset': longArcDash - arcLength + longArcDash,
+                    duration: arcDuration,
+                    ease: Power0.easeNone
+                });
+                tl.to({}, arcDelay, {});
+                tl.seek(seek);
+            }
+
+            function shortArcAnimate ($shortArc, seek) {
+                const tl = gsap.timeline({ repeat: -1 });
+                tl.to($shortArc, {
+                    'stroke-dashoffset': 0,
+                    duration: arcDuration,
+                    ease: Power0.easeNone
+                });
+                tl.to({}, arcDelay, {});
+                tl.to($shortArc, {
+                    'stroke-dashoffset': -shortArcDash,
+                    duration: arcDuration,
+                    ease: Power0.easeNone
+                });
+                tl.to({}, arcDelay, {});
+                tl.seek(seek);
+            }
+
+
+            longArcAnimate($longArcs[0], arcDuration / 2);
+            longArcAnimate($longArcs[3], (rectWidth + arcRadius) / rectLength * rectDuration);
+            longArcAnimate($longArcs[2], (rectWidth + rectHeight + arcRadius) / rectLength * rectDuration);
+            longArcAnimate($longArcs[1], (rectWidth + rectHeight + rectWidth + arcRadius) / rectLength * rectDuration);
+
+            shortArcAnimate($shortArcs[0], arcDuration / 2);
+            shortArcAnimate($shortArcs[3], (rectWidth + arcRadius) / rectLength * rectDuration);
+            shortArcAnimate($shortArcs[2], (rectWidth + rectHeight + arcRadius) / rectLength * rectDuration);
+            shortArcAnimate($shortArcs[1], (rectWidth + rectHeight + rectWidth + arcRadius) / rectLength * rectDuration);
+
+        }
+
+        animate(document.getElementById('b1'), 10)
+        animate(document.getElementById('b3'), 20)
+
+
+
+
+    </script>
+
+</body>
+</html>

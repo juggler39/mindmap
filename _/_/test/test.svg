@@ -1,0 +1,9 @@
+<svg>
+
+        <linearGradient id="Gradient1" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="100%" y2="100%">
+            <stop stop-color="red" offset="0%"/>
+            <stop stop-color="black" offset="50%"/>
+            <stop stop-color="blue" offset="100%"/>
+        </linearGradient>
+
+</svg>

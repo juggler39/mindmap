@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        svg {
+            outline: 1px solid #F00;
+            width: 100%;
+            height: 100%;
+        }
+        rect {
+            /*animation: test 1s linear infinite;*/
+        }
+        #test {
+            width: 900px;
+            height: 400px;
+        }
+        @keyframes test {
+            0% { stroke-dashoffset: 0 }
+            100% { stroke-dashoffset: 200 }
+        }
+    </style>
+</head>
+<body>
+
+<svg>
+
+
+    <defs>
+        <linearGradient id="Gradient1" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="100%" y2="100%">
+            <stop stop-color="red" offset="0%"/>
+            <stop stop-color="black" offset="50%"/>
+            <stop stop-color="blue" offset="100%"/>
+        </linearGradient>
+    </defs>
+
+    <rect x="10%" y="10%" width="80%" height="80%" fill="none" stroke="url(#Gradient1)" stroke-width="10" stroke-dasharray="0"></rect>
+
+    <circle cx="10%" cy="10%" r="30" fill="none" stroke="url(#Gradient1)" stroke-width="10" ></circle>
+
+</svg>
+
+    <div id="test">
+
+
+
+
+        <svg>
+
+
+            <defs>
+                <linearGradient id="Gradient1" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="100%" y2="100%">
+                    <stop stop-color="red" offset="0%"/>
+                    <stop stop-color="black" offset="50%"/>
+                    <stop stop-color="blue" offset="100%"/>
+                </linearGradient>
+            </defs>
+
+            <rect x="10%" y="10%" width="80%" height="80%" fill="none" stroke="url(#Gradient1)" stroke-width="10" stroke-dasharray="0"></rect>
+
+            <circle cx="10%" cy="10%" r="30" fill="none" stroke="url(#Gradient1)" stroke-width="10" ></circle>
+
+        </svg>
+    </div>
+
+</body>
+</html>
