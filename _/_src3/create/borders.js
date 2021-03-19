@@ -2,7 +2,7 @@
 // Arc animations
 // ----------------------
 
-function playArc ($node, { delay, duration, length  }, { dash, offset, angle, seek }, map) {
+function playArc ($node, { delay, duration, length  }, { dash, offset, angle, seek }) {
 
     const ease = Power0.easeNone;
     const cx = $node.getAttribute('cx');
@@ -12,14 +12,12 @@ function playArc ($node, { delay, duration, length  }, { dash, offset, angle, se
     $node.setAttribute('stroke-dasharray', `${dash} ${length}`);
     $node.setAttribute('stroke-dashoffset', `${offset[0]}`);
 
-    const animation = gsap.timeline({ repeat: -1 })
+    gsap.timeline({ repeat: -1 })
         .to($node, { duration, ease, strokeDashoffset: offset[1] })
         .to({}, delay, {})
         .to($node, { duration, ease, strokeDashoffset: offset[2] })
         .to({}, delay, {})
         .seek(seek);
-    
-    map.animations.push(animation);
 }
 
 
@@ -28,15 +26,14 @@ function playArc ($node, { delay, duration, length  }, { dash, offset, angle, se
 // Rect animations
 // ----------------------
 
-function playRect ($node, { length, duration }, map) {
+function playRect ($node, { length, duration }) {
     $node.setAttribute('stroke-dasharray', length / 2);
-    const animation = gsap.to($node, {
+    gsap.to($node, {
         strokeDashoffset: length,
         repeat: -1,
         ease: Power0.easeNone,
         duration
     })
-    map.animations.push(animation);
 }
 
 
@@ -147,62 +144,62 @@ class Border {
 // Borders
 // ----------------------
 
-function b1 (map) {
+function b1 () {
     const $border = document.getElementById('b1');
     const $lg = $border.querySelectorAll('.mm-lg');
     const $sm = $border.querySelectorAll('.mm-sm');
     const border = new Border($border);
-    playRect(border.$rect, border.rect, map);
-    playArc($lg[0], border.circle, border.getArc('lg', 0), map);
-    playArc($lg[1], border.circle, border.getArc('lg', 2), map);
-    playArc($lg[2], border.circle, border.getArc('lg', 4), map);
-    playArc($lg[3], border.circle, border.getArc('lg', 6), map);
-    playArc($sm[0], border.circle, border.getArc('sm', 0), map);
-    playArc($sm[1], border.circle, border.getArc('sm', 2), map);
-    playArc($sm[2], border.circle, border.getArc('sm', 4), map);
-    playArc($sm[3], border.circle, border.getArc('sm', 6), map);
+    playRect(border.$rect, border.rect);
+    playArc($lg[0], border.circle, border.getArc('lg', 0));
+    playArc($lg[1], border.circle, border.getArc('lg', 2));
+    playArc($lg[2], border.circle, border.getArc('lg', 4));
+    playArc($lg[3], border.circle, border.getArc('lg', 6));
+    playArc($sm[0], border.circle, border.getArc('sm', 0));
+    playArc($sm[1], border.circle, border.getArc('sm', 2));
+    playArc($sm[2], border.circle, border.getArc('sm', 4));
+    playArc($sm[3], border.circle, border.getArc('sm', 6));
 }
 
-function b2 (map) {
+function b2 () {
     const $border = document.getElementById('b2');
     const $lg = $border.querySelectorAll('.mm-lg');
     const $sm = $border.querySelectorAll('.mm-sm');
     const $mt = $border.querySelectorAll('.mm-mt');
     const $mb = $border.querySelectorAll('.mm-mb');
     const border = new Border($border);
-    playRect(border.$rect, border.rect, map);
-    playArc($lg[0], border.circle, border.getArc('lg', 0), map);
-    playArc($lg[1], border.circle, border.getArc('lg', 2), map);
-    playArc($lg[2], border.circle, border.getArc('lg', 4), map);
-    playArc($lg[3], border.circle, border.getArc('lg', 6), map);
-    playArc($sm[0], border.circle, border.getArc('sm', 0), map);
-    playArc($sm[1], border.circle, border.getArc('sm', 2), map);
-    playArc($sm[2], border.circle, border.getArc('sm', 4), map);
-    playArc($sm[3], border.circle, border.getArc('sm', 6), map);
-    playArc($mt[0], border.circle, border.getArc('mt', 1), map);
-    playArc($mt[1], border.circle, border.getArc('mt', 3), map);
-    playArc($mt[2], border.circle, border.getArc('mt', 5), map);
-    playArc($mt[3], border.circle, border.getArc('mt', 7), map);
-    playArc($mb[0], border.circle, border.getArc('mb', 1), map);
-    playArc($mb[1], border.circle, border.getArc('mb', 3), map);
-    playArc($mb[2], border.circle, border.getArc('mb', 5), map);
-    playArc($mb[3], border.circle, border.getArc('mb', 7), map);
+    playRect(border.$rect, border.rect);
+    playArc($lg[0], border.circle, border.getArc('lg', 0));
+    playArc($lg[1], border.circle, border.getArc('lg', 2));
+    playArc($lg[2], border.circle, border.getArc('lg', 4));
+    playArc($lg[3], border.circle, border.getArc('lg', 6));
+    playArc($sm[0], border.circle, border.getArc('sm', 0));
+    playArc($sm[1], border.circle, border.getArc('sm', 2));
+    playArc($sm[2], border.circle, border.getArc('sm', 4));
+    playArc($sm[3], border.circle, border.getArc('sm', 6));
+    playArc($mt[0], border.circle, border.getArc('mt', 1));
+    playArc($mt[1], border.circle, border.getArc('mt', 3));
+    playArc($mt[2], border.circle, border.getArc('mt', 5));
+    playArc($mt[3], border.circle, border.getArc('mt', 7));
+    playArc($mb[0], border.circle, border.getArc('mb', 1));
+    playArc($mb[1], border.circle, border.getArc('mb', 3));
+    playArc($mb[2], border.circle, border.getArc('mb', 5));
+    playArc($mb[3], border.circle, border.getArc('mb', 7));
 }
 
-function b3 (map) {
+function b3 () {
     const $border = document.getElementById('b3');
     const $lg = $border.querySelectorAll('.mm-lg');
     const $sm = $border.querySelectorAll('.mm-sm');
     const border = new Border($border);
-    playRect(border.$rect, border.rect, map);
-    playArc($lg[0], border.circle, border.getArc('lg', 0), map);
-    playArc($lg[1], border.circle, border.getArc('lg', 2), map);
-    playArc($lg[2], border.circle, border.getArc('lg', 4), map);
-    playArc($lg[3], border.circle, border.getArc('lg', 6), map);
-    playArc($sm[0], border.circle, border.getArc('sm', 0), map);
-    playArc($sm[1], border.circle, border.getArc('sm', 2), map);
-    playArc($sm[2], border.circle, border.getArc('sm', 4), map);
-    playArc($sm[3], border.circle, border.getArc('sm', 6), map);
+    playRect(border.$rect, border.rect);
+    playArc($lg[0], border.circle, border.getArc('lg', 0));
+    playArc($lg[1], border.circle, border.getArc('lg', 2));
+    playArc($lg[2], border.circle, border.getArc('lg', 4));
+    playArc($lg[3], border.circle, border.getArc('lg', 6));
+    playArc($sm[0], border.circle, border.getArc('sm', 0));
+    playArc($sm[1], border.circle, border.getArc('sm', 2));
+    playArc($sm[2], border.circle, border.getArc('sm', 4));
+    playArc($sm[3], border.circle, border.getArc('sm', 6));
 }
 
 
@@ -212,7 +209,7 @@ function b3 (map) {
 // ----------------------
 
 export default function (map) {
-    b1(map);
-    b2(map);
-    b3(map);
+    b1();
+    b2();
+    b3();
 }

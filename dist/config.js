@@ -47,216 +47,216 @@ const MapConfig = {
 
         // 0
 
-        // {
-        //     orbit: 0,
-        //     position: {
-        //         bottom: 0,
-        //         right: 0
-        //     },
-        //     image: 'images/1.svg',
-        //     label: 'Writing',
-        //     note: 'Our approach to writing is multi-faceted. LightSail combines features for teaching the mechanics of writing, with modules that guide children through different writing pieces. Creativity and unlimited inspiration are fostered by the unique way LightSail integrates the books your children read and the topics they are already interested in.',
-        //     moons: [
-        //         {
-        //             image: 'planets/svg/moon-red.svg',
-        //             label: 'My Journal',
-        //             note: 'My Journal is a space especially for your child’s personal notes and thoughts. It can be both a reading journal, integrated with their library, and a regular diary '
-        //         },
-        //         {
-        //             image: 'planets/svg/moon-yellow.svg',
-        //             label: 'Authentic Writing',
-        //             note: 'LightSail’s most creative writing module is Authentic Writing. This module directly relates books to real-life writing scenarios by allowing a child to take a problem, idea, or situation from a book and write about it in an authentic format'
-        //         },
-        //         {
-        //             image: 'planets/svg/moon-blue.svg',
-        //             label: 'Essay',
-        //             note: 'LightSail’s Essay Writing module focuses on a specific prompt that a child will answer relating to a book they’re reading and is completely customizable for learners at all levels'
-        //         },
-        //         {
-        //             image: 'planets/svg/moon-purple.svg',
-        //             label: 'Inquiry Report',
-        //             note: 'LightSail’s Inquiry Writing module uses the KWL (Know - Want to Know - Learned) strategy to guide children through the fundamentals of writing a research paper.'
-        //         },
-        //         {
-        //             image: 'planets/svg/moon-red.svg',
-        //             label: 'Book Report',
-        //             note: 'LightSail has taken the age-old concept of a book report and made it fun and fresh for both parents and children. The basic premise remains the same - a child reads a book and then responds with a short essay or by answering a series of questions. Only now, with LightSail’s unparalleled content selection and cutting-edge technology, this writing format is an even more substantial tool for homeschoolers than ever before.'
-        //         },
-        //         {
-        //             image: 'planets/svg/moon-yellow.svg',
-        //             label: 'Writing Skills Builder',
-        //             note: 'Grammar and Language Skill Builder is a module that works on the mechanics of writing, allowing parents to quickly and easily craft assignments which strengthen the nuts and bolts of a child’s writing skills.'
-        //         },
-        //         {
-        //             image: 'planets/svg/moon-blue.svg',
-        //             label: 'Informal Writing',
-        //             note: 'Informal Writing Workshops are fun, gamified writing prompts that teach through real-life writing encounters that children will want to engage in. These workshops provide grade-appropriate scenarios for children to experience writing in an organic and relatable way like mock social media posts, fun and creative free-writing prompts, and even hashtag challenges.'
-        //         },
-        //         {
-        //             image: 'planets/svg/moon-purple.svg',
-        //             label: 'Author a Book',
-        //             note: 'One of LightSail’s most exciting features is Author a Book. With this feature, your child can stretch their imagination and their reading and writing skills by creating their own book and publishing it for other children around the world to read, with a parent’s permission.'
-        //         }
-        //     ]
-        // },
-        // {
-        //     orbit: 0,
-        //     position: {
-        //         bottom: 0,
-        //         left: 0
-        //     },
-        //     image: 'images/2.svg',
-        //     label: 'Reading',
-        //     note: 'By presenting children with a wide array of content that is both captivating and at just the right reading level, by harnessing the power of adaptive technology to monitor reading progress and assist children with accessing text, and by creating a fun, interactive reading experience - LightSail helps children grow into fully literate adults who possess a lifelong love of reading.',
-        //     moons: [
-        //         {
-        //             image: 'planets/svg/moon-blue.svg',
-        //             label: 'Book Library',
-        //             note: 'With LightSail, every child\'s book library will be different because it will be personalized just for them. With book suggestions based on both a child\'s precise Lexile reading level and their interests, no two libraries will be the same - just like no two children are the same.'
-        //         },
-        //         {
-        //             image: 'planets/svg/moon-purple.svg',
-        //             label: 'Audiobook Library',
-        //             note: 'LightSail contains over 1,500 audiobooks of three different types to suit different readers: standard audiobooks, audiobooks with text highlighting by word, and audiobooks with text highlighting by sentence. '
-        //         },
-        //         {
-        //             image: 'planets/svg/moon-red.svg',
-        //             label: 'World Book Encyclopedia',
-        //             note: 'LightSail has partnered with World Book Encyclopedia, a source parents have trusted for educational content for over 100 years, to bring over 50,000 encyclopedia articles into the platform that are all enhanced with LightSail’s seven layers of educational features.'
-        //         },
-        //         {
-        //             image: 'planets/svg/moon-yellow.svg',
-        //             label: 'Biography Center',
-        //             note: 'In LightSail’s Biography Center, children can explore books, encyclopedia articles, and other content about famous and infamous people from history and the present day.\n\nOur Biography Center contains curated biography collections and shelves of biographies organized alphabetically by last name. The search function also lets children sort by area of work or interest, nationality, ethnicity, gender, or time period.'
-        //         },
-        //         {
-        //             image: 'planets/svg/moon-blue.svg',
-        //             label: 'Lerner Digital Interactive Books',
-        //             note: 'Designed to improve literacy skills for emergent and struggling readers, Lerner Digitial Interactive Books are audio e-books with enhanced features like a comprehension quiz, a teacher\'s guide, and supplemental activities.'
-        //         },
-        //         {
-        //             image: 'planets/svg/moon-purple.svg',
-        //             label: 'Lerner Sports',
-        //             note: 'Lerner Sports explores the backgrounds, career-defining moments, and everyday lives of popular athletes. Accessible directly through the LightSail platform, the Lerner Sports module helps children develop research skills and citation experience for reports or simply provides a child-friendly space for pleasure reading.'
-        //         },
-        //         {
-        //             image: 'planets/svg/moon-red.svg',
-        //             label: 'Library Collections',
-        //             note: 'Library Collections are groups of books, encyclopedia articles, videos, images, and action clips centered around a particular topic or central theme. These collections are perfect for unit studies or thematic learning, allowing a parent to gather content of their choosing and present it to a child for self-study either indefinitely or for a certain period of time.'
-        //         },
-        //         {
-        //             image: 'planets/svg/moon-yellow.svg',
-        //             label: 'Classics Library',
-        //             note: 'LightSail has brought 3000 of the most widely acclaimed fiction and non-fiction works in history together in LightSail Classics. This curated collection of books represents the most relevant literature to Western culture, from Ancient Greece, to Medieval England, to Revolutionary Russia, to Progressive America. This collection encompasses the most thought-provoking and delightful works for readers, preschool through adult.'
-        //         },
-        //         {
-        //             image: 'planets/svg/moon-blue.svg',
-        //             label: 'Homework',
-        //             note: 'LightSail gives parents the ability to create independent study assignments, set up accountability checks, and ensure that a certain amount of reading is accomplished with the Homework feature.'
-        //         },
-        //         {
-        //             image: 'planets/svg/moon-purple.svg',
-        //             label: 'Buy Books',
-        //             note: 'The Buy Books feature is LightSail’s secure e-commerce platform, a veritable bookstore at your fingertips. Here, parents and children can directly purchase tens of thousands of individual titles and book bundles from dozens of top publishers, including popular homeschool and faith-based publishers.'
-        //         }
-        //     ]
-        // },
-        // {
-        //     orbit: 0,
-        //     position: {
-        //         top: 0,
-        //         left: 0
-        //     },
-        //     image: 'images/3.svg',
-        //     label: 'Fluency',
-        //     video: {
-        //         width: 640,
-        //         height: 360,
-        //         src: 'https://player.vimeo.com/video/523712834'
-        //     },
-        //     note: 'Measuring your child’s fluency is critical to having a complete picture of their literacy skills. Other metrics, like how many pages a week they read or even how well they comprehend the content, do not give you all of the pieces. Having an objective way to measure how well your child reads aloud is the only way to gauge whether they are confident, fluent readers.',
-        //     moons: [
-        //         {
-        //             image: 'planets/svg/moon-red.svg',
-        //             label: 'Read-Aloud / Retelling Assignment',
-        //             note: 'In a Read-Aloud / Retelling assignment, a parent first chooses a selection of text for their child to read. Optionally, a parent can also add a retelling portion to the assignment. When your child is finished recording their read-aloud, LightSail will prompt them to record themselves telling you what the passage they just read was about in their own words.'
-        //         },
-        //         {
-        //             image: 'planets/svg/moon-yellow.svg',
-        //             label: 'Read-Aloud in a Book',
-        //             note: 'While reading any book or article in LightSail, the Read Aloud feature allows children to spontaneously record themselves reading a portion of text and send it to a parent for their review and feedback.'
-        //         },
-        //         {
-        //             image: 'planets/svg/moon-blue.svg',
-        //             label: 'Speaking / Listening / Writing Assignment',
-        //             note: 'A Speaking/Listening/Writing assignment is an activity-based module that can be configured in many different ways to assess and practice linguistic fluency skills. For example, a parent could ask their child to read a poem and respond with a narrative summary.'
-        //         },
-        //         {
-        //             image: 'planets/svg/moon-purple.svg',
-        //             label: 'Running Record',
-        //             note: 'Creating a running record will allow you to easily and objectively assess and track your child’s fluency and read-aloud accuracy. After a child is finished recording a Read-Aloud assignment, the parent creates a running record, which allows LightSail to calculate their WCPM (words correct per minute). '
-        //         }
-        //     ]
-        // },
-        // {
-        //     orbit: 0,
-        //     position: {
-        //         top: 0,
-        //         right: 0
-        //     },
-        //     image: 'images/4.svg',
-        //     label: 'Vocabulary',
-        //     video: {
-        //         width: 640,
-        //         height: 352,
-        //         src: 'https://player.vimeo.com/video/523998312'
-        //     },
-        //     note: 'LightSail takes a spiral approach to teaching vocabulary that is immersive and individualized. We integrate vocabulary instruction into the platform in multiple ways, presenting children with new words in a variety of contexts and increasing their comprehension as they encounter these words multiple times. Additionally, the words chosen for your child are completely personalized to their individual Lexile reading comprehension and vocabulary level, which automatically adjusts as they learn.',
-        //     moons: [
-        //         {
-        //             image: 'planets/svg/moon-red.svg',
-        //             label: 'Clozes',
-        //             note: 'As a child reads a book on LightSail, they encounter a cloze, or blank, and they must choose the appropriate word from among four possible options to fill that space. These clozes take your child from being a passive consumer of the content to being an active participant, absorbing and analyzing the information. Clozes require them to think critically about the text, make inferences, and draw on prior knowledge, and as they make word choices to fill in the blanks, they learn new words and word meanings in a very organic way.'
-        //         },
-        //         {
-        //             image: 'planets/svg/moon-yellow.svg',
-        //             label: 'Spelling Bee',
-        //             note: 'Children are offered Spelling Bees whenever they finish reading a book. When a child participates in a Spelling Bee, they aren’t just learning to spell. They hear the proper pronunciation of a word, its part of speech, synonyms for the word, and its usage in a sentence.'
-        //         },
-        //         {
-        //             image: 'planets/svg/moon-blue.svg',
-        //             label: 'Vocabulary Assessment',
-        //             note: 'With Vocabulary Assignments, parents can proactively help their children practice new vocabulary words. One of the many great ways to use this tool is by assigning word lists from other subjects your child is studying like science or history.'
-        //         },
-        //         {
-        //             image: 'planets/svg/moon-purple.svg',
-        //             label: 'Word Work',
-        //             note: 'LightSail’s Word Work module does precisely what it sounds like; it helps your child work on vocabulary and spelling words they have answered incorrectly in the course of their assignments. With Word Work, you don’t have to worry that your child is senselessly practicing vocabulary they have already mastered. '
-        //         },
-        //         {
-        //             image: 'planets/svg/moon-red.svg',
-        //             label: 'Synonym / Definition Builder',
-        //             note: 'Synonym / Definition Builder is a full dictionary that a child can access either from directly inside the books and articles they read by clicking on any word or from anywhere on their dashboard. They can read definitions, see synonyms and parts of speech in a word tree, and see word translations and examples of the word used in sentences.'
-        //         },
-        //         {
-        //             image: 'planets/svg/moon-yellow.svg',
-        //             label: 'Parts of Speech',
-        //             note: 'When a child opens the Parts of Speech feature while reading a book, LightSail immediately color-codes all of the nouns on the page with a purple box - the default setting. Different parts of speech each have their own color, and children can highlight any or all of them as they read. Verbs, adjectives, conjunctions, and more can be color-coded either within the text of the book itself or shown in the side panel.'
-        //         },
-        //         {
-        //             image: 'planets/svg/moon-blue.svg',
-        //             label: 'Parts of Speech',
-        //             note: 'Parts of Speech is a feature inside books and articles that lets your child highlight and isolate words based on their part of speech. Homeschoolers and others will find Parts of Speech useful for writing lessons, diagramming sentences, or to examine the structure of classical works of literature, prose, and poetry, and it is an invaluable tool for learning grammar, vocabulary, syntax, sentence structure, and more.'
-        //         },
-        //         {
-        //             image: 'planets/svg/moon-purple.svg',
-        //             label: 'Word Lists',
-        //             note: 'LightSail provides targeted word lists for parents to choose from when creating Spelling Bees and Vocabulary Assignments. Search by Lexile level, word families, sight words, themed words, and more. Then, choose from individual words or entire lists to create personalized assignments for your child.'
-        //         }
-        //     ]
-        // },
-        //
-        //
+        {
+            orbit: 0,
+            position: {
+                bottom: 0,
+                right: 0
+            },
+            image: 'images/1.svg',
+            label: 'Writing',
+            note: 'Our approach to writing is multi-faceted. LightSail combines features for teaching the mechanics of writing, with modules that guide children through different writing pieces. Creativity and unlimited inspiration are fostered by the unique way LightSail integrates the books your children read and the topics they are already interested in.',
+            moons: [
+                {
+                    image: 'planets/svg/moon-red.svg',
+                    label: 'My Journal',
+                    note: 'My Journal is a space especially for your child’s personal notes and thoughts. It can be both a reading journal, integrated with their library, and a regular diary '
+                },
+                {
+                    image: 'planets/svg/moon-yellow.svg',
+                    label: 'Authentic Writing',
+                    note: 'LightSail’s most creative writing module is Authentic Writing. This module directly relates books to real-life writing scenarios by allowing a child to take a problem, idea, or situation from a book and write about it in an authentic format'
+                },
+                {
+                    image: 'planets/svg/moon-blue.svg',
+                    label: 'Essay',
+                    note: 'LightSail’s Essay Writing module focuses on a specific prompt that a child will answer relating to a book they’re reading and is completely customizable for learners at all levels'
+                },
+                {
+                    image: 'planets/svg/moon-purple.svg',
+                    label: 'Inquiry Report',
+                    note: 'LightSail’s Inquiry Writing module uses the KWL (Know - Want to Know - Learned) strategy to guide children through the fundamentals of writing a research paper.'
+                },
+                {
+                    image: 'planets/svg/moon-red.svg',
+                    label: 'Book Report',
+                    note: 'LightSail has taken the age-old concept of a book report and made it fun and fresh for both parents and children. The basic premise remains the same - a child reads a book and then responds with a short essay or by answering a series of questions. Only now, with LightSail’s unparalleled content selection and cutting-edge technology, this writing format is an even more substantial tool for homeschoolers than ever before.'
+                },
+                {
+                    image: 'planets/svg/moon-yellow.svg',
+                    label: 'Writing Skills Builder',
+                    note: 'Grammar and Language Skill Builder is a module that works on the mechanics of writing, allowing parents to quickly and easily craft assignments which strengthen the nuts and bolts of a child’s writing skills.'
+                },
+                {
+                    image: 'planets/svg/moon-blue.svg',
+                    label: 'Informal Writing',
+                    note: 'Informal Writing Workshops are fun, gamified writing prompts that teach through real-life writing encounters that children will want to engage in. These workshops provide grade-appropriate scenarios for children to experience writing in an organic and relatable way like mock social media posts, fun and creative free-writing prompts, and even hashtag challenges.'
+                },
+                {
+                    image: 'planets/svg/moon-purple.svg',
+                    label: 'Author a Book',
+                    note: 'One of LightSail’s most exciting features is Author a Book. With this feature, your child can stretch their imagination and their reading and writing skills by creating their own book and publishing it for other children around the world to read, with a parent’s permission.'
+                }
+            ]
+        },
+        {
+            orbit: 0,
+            position: {
+                bottom: 0,
+                left: 0
+            },
+            image: 'images/2.svg',
+            label: 'Reading',
+            note: 'By presenting children with a wide array of content that is both captivating and at just the right reading level, by harnessing the power of adaptive technology to monitor reading progress and assist children with accessing text, and by creating a fun, interactive reading experience - LightSail helps children grow into fully literate adults who possess a lifelong love of reading.',
+            moons: [
+                {
+                    image: 'planets/svg/moon-blue.svg',
+                    label: 'Book Library',
+                    note: 'With LightSail, every child\'s book library will be different because it will be personalized just for them. With book suggestions based on both a child\'s precise Lexile reading level and their interests, no two libraries will be the same - just like no two children are the same.'
+                },
+                {
+                    image: 'planets/svg/moon-purple.svg',
+                    label: 'Audiobook Library',
+                    note: 'LightSail contains over 1,500 audiobooks of three different types to suit different readers: standard audiobooks, audiobooks with text highlighting by word, and audiobooks with text highlighting by sentence. '
+                },
+                {
+                    image: 'planets/svg/moon-red.svg',
+                    label: 'World Book Encyclopedia',
+                    note: 'LightSail has partnered with World Book Encyclopedia, a source parents have trusted for educational content for over 100 years, to bring over 50,000 encyclopedia articles into the platform that are all enhanced with LightSail’s seven layers of educational features.'
+                },
+                {
+                    image: 'planets/svg/moon-yellow.svg',
+                    label: 'Biography Center',
+                    note: 'In LightSail’s Biography Center, children can explore books, encyclopedia articles, and other content about famous and infamous people from history and the present day.\n\nOur Biography Center contains curated biography collections and shelves of biographies organized alphabetically by last name. The search function also lets children sort by area of work or interest, nationality, ethnicity, gender, or time period.'
+                },
+                {
+                    image: 'planets/svg/moon-blue.svg',
+                    label: 'Lerner Digital Interactive Books',
+                    note: 'Designed to improve literacy skills for emergent and struggling readers, Lerner Digitial Interactive Books are audio e-books with enhanced features like a comprehension quiz, a teacher\'s guide, and supplemental activities.'
+                },
+                {
+                    image: 'planets/svg/moon-purple.svg',
+                    label: 'Lerner Sports',
+                    note: 'Lerner Sports explores the backgrounds, career-defining moments, and everyday lives of popular athletes. Accessible directly through the LightSail platform, the Lerner Sports module helps children develop research skills and citation experience for reports or simply provides a child-friendly space for pleasure reading.'
+                },
+                {
+                    image: 'planets/svg/moon-red.svg',
+                    label: 'Library Collections',
+                    note: 'Library Collections are groups of books, encyclopedia articles, videos, images, and action clips centered around a particular topic or central theme. These collections are perfect for unit studies or thematic learning, allowing a parent to gather content of their choosing and present it to a child for self-study either indefinitely or for a certain period of time.'
+                },
+                {
+                    image: 'planets/svg/moon-yellow.svg',
+                    label: 'Classics Library',
+                    note: 'LightSail has brought 3000 of the most widely acclaimed fiction and non-fiction works in history together in LightSail Classics. This curated collection of books represents the most relevant literature to Western culture, from Ancient Greece, to Medieval England, to Revolutionary Russia, to Progressive America. This collection encompasses the most thought-provoking and delightful works for readers, preschool through adult.'
+                },
+                {
+                    image: 'planets/svg/moon-blue.svg',
+                    label: 'Homework',
+                    note: 'LightSail gives parents the ability to create independent study assignments, set up accountability checks, and ensure that a certain amount of reading is accomplished with the Homework feature.'
+                },
+                {
+                    image: 'planets/svg/moon-purple.svg',
+                    label: 'Buy Books',
+                    note: 'The Buy Books feature is LightSail’s secure e-commerce platform, a veritable bookstore at your fingertips. Here, parents and children can directly purchase tens of thousands of individual titles and book bundles from dozens of top publishers, including popular homeschool and faith-based publishers.'
+                }
+            ]
+        },
+        {
+            orbit: 0,
+            position: {
+                top: 0,
+                left: 0
+            },
+            image: 'images/3.svg',
+            label: 'Fluency',
+            video: {
+                width: 640,
+                height: 360,
+                src: 'https://player.vimeo.com/video/523712834'
+            },
+            note: 'Measuring your child’s fluency is critical to having a complete picture of their literacy skills. Other metrics, like how many pages a week they read or even how well they comprehend the content, do not give you all of the pieces. Having an objective way to measure how well your child reads aloud is the only way to gauge whether they are confident, fluent readers.',
+            moons: [
+                {
+                    image: 'planets/svg/moon-red.svg',
+                    label: 'Read-Aloud / Retelling Assignment',
+                    note: 'In a Read-Aloud / Retelling assignment, a parent first chooses a selection of text for their child to read. Optionally, a parent can also add a retelling portion to the assignment. When your child is finished recording their read-aloud, LightSail will prompt them to record themselves telling you what the passage they just read was about in their own words.'
+                },
+                {
+                    image: 'planets/svg/moon-yellow.svg',
+                    label: 'Read-Aloud in a Book',
+                    note: 'While reading any book or article in LightSail, the Read Aloud feature allows children to spontaneously record themselves reading a portion of text and send it to a parent for their review and feedback.'
+                },
+                {
+                    image: 'planets/svg/moon-blue.svg',
+                    label: 'Speaking / Listening / Writing Assignment',
+                    note: 'A Speaking/Listening/Writing assignment is an activity-based module that can be configured in many different ways to assess and practice linguistic fluency skills. For example, a parent could ask their child to read a poem and respond with a narrative summary.'
+                },
+                {
+                    image: 'planets/svg/moon-purple.svg',
+                    label: 'Running Record',
+                    note: 'Creating a running record will allow you to easily and objectively assess and track your child’s fluency and read-aloud accuracy. After a child is finished recording a Read-Aloud assignment, the parent creates a running record, which allows LightSail to calculate their WCPM (words correct per minute). '
+                }
+            ]
+        },
+        {
+            orbit: 0,
+            position: {
+                top: 0,
+                right: 0
+            },
+            image: 'images/4.svg',
+            label: 'Vocabulary',
+            video: {
+                width: 640,
+                height: 352,
+                src: 'https://player.vimeo.com/video/523998312'
+            },
+            note: 'LightSail takes a spiral approach to teaching vocabulary that is immersive and individualized. We integrate vocabulary instruction into the platform in multiple ways, presenting children with new words in a variety of contexts and increasing their comprehension as they encounter these words multiple times. Additionally, the words chosen for your child are completely personalized to their individual Lexile reading comprehension and vocabulary level, which automatically adjusts as they learn.',
+            moons: [
+                {
+                    image: 'planets/svg/moon-red.svg',
+                    label: 'Clozes',
+                    note: 'As a child reads a book on LightSail, they encounter a cloze, or blank, and they must choose the appropriate word from among four possible options to fill that space. These clozes take your child from being a passive consumer of the content to being an active participant, absorbing and analyzing the information. Clozes require them to think critically about the text, make inferences, and draw on prior knowledge, and as they make word choices to fill in the blanks, they learn new words and word meanings in a very organic way.'
+                },
+                {
+                    image: 'planets/svg/moon-yellow.svg',
+                    label: 'Spelling Bee',
+                    note: 'Children are offered Spelling Bees whenever they finish reading a book. When a child participates in a Spelling Bee, they aren’t just learning to spell. They hear the proper pronunciation of a word, its part of speech, synonyms for the word, and its usage in a sentence.'
+                },
+                {
+                    image: 'planets/svg/moon-blue.svg',
+                    label: 'Vocabulary Assessment',
+                    note: 'With Vocabulary Assignments, parents can proactively help their children practice new vocabulary words. One of the many great ways to use this tool is by assigning word lists from other subjects your child is studying like science or history.'
+                },
+                {
+                    image: 'planets/svg/moon-purple.svg',
+                    label: 'Word Work',
+                    note: 'LightSail’s Word Work module does precisely what it sounds like; it helps your child work on vocabulary and spelling words they have answered incorrectly in the course of their assignments. With Word Work, you don’t have to worry that your child is senselessly practicing vocabulary they have already mastered. '
+                },
+                {
+                    image: 'planets/svg/moon-red.svg',
+                    label: 'Synonym / Definition Builder',
+                    note: 'Synonym / Definition Builder is a full dictionary that a child can access either from directly inside the books and articles they read by clicking on any word or from anywhere on their dashboard. They can read definitions, see synonyms and parts of speech in a word tree, and see word translations and examples of the word used in sentences.'
+                },
+                {
+                    image: 'planets/svg/moon-yellow.svg',
+                    label: 'Parts of Speech',
+                    note: 'When a child opens the Parts of Speech feature while reading a book, LightSail immediately color-codes all of the nouns on the page with a purple box - the default setting. Different parts of speech each have their own color, and children can highlight any or all of them as they read. Verbs, adjectives, conjunctions, and more can be color-coded either within the text of the book itself or shown in the side panel.'
+                },
+                {
+                    image: 'planets/svg/moon-blue.svg',
+                    label: 'Parts of Speech',
+                    note: 'Parts of Speech is a feature inside books and articles that lets your child highlight and isolate words based on their part of speech. Homeschoolers and others will find Parts of Speech useful for writing lessons, diagramming sentences, or to examine the structure of classical works of literature, prose, and poetry, and it is an invaluable tool for learning grammar, vocabulary, syntax, sentence structure, and more.'
+                },
+                {
+                    image: 'planets/svg/moon-purple.svg',
+                    label: 'Word Lists',
+                    note: 'LightSail provides targeted word lists for parents to choose from when creating Spelling Bees and Vocabulary Assignments. Search by Lexile level, word families, sight words, themed words, and more. Then, choose from individual words or entire lists to create personalized assignments for your child.'
+                }
+            ]
+        },
+
+
         // 1
 
         {

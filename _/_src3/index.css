@@ -32,23 +32,3 @@
 .mm-line--orange {
     stroke: #FFBC1D;
 }
-
-.mm text {
-    fill: #FFFFFF;
-    /*alignment-baseline: middle;*/
-}
-.mm tspan {
-    text-anchor: middle;
-    alignment-baseline: middle;
-}
-.mm-planet text {
-    font-size: 20px;
-}
-.mm-moon text {
-    font-size: 14px;
-}
-
-.mm-overlay {
-    display: none;
-    fill: rgba(255,255,255,0.7);
-}

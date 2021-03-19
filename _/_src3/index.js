@@ -1,9 +1,7 @@
 import '@/index.css'
-import Config from '@/config'
-import SVG from '@/svg'
+import SVG from '@/index.svg'
 import createBorders from '@/create/borders'
 import createLines from '@/create/lines'
-import createClicks from '@/create/clicks'
 
 export default class MindMap {
 
@@ -14,30 +12,15 @@ export default class MindMap {
     // ----------------------
 
     constructor ($node, options) {
-        this.$node = $node;
-        this.$node.classList.add('mm');
-        this.animations = [];
-        this.options = options
-        this.init();
-    }
 
-    init () {
-        const nw = this.$node.offsetWidth;
-        const nh = this.$node.offsetHeight;
-        const s = Math.min(nw, nh) / Config.size;
-        const w = nw / s;
-        const h = nh / s;
-        const x = (w - Config.size) / 6;
-        const y = (h - Config.size) / 6;        
-        const dir = this.options.imagesFolder;
-        this.$node.innerHTML = SVG({ w, h, x, y, dir });
+        $node.classList.add('mm');
+        $node.innerHTML = SVG;
+
         createBorders(this);
         createLines(this);
-        createClicks(this);
-    }
-    
-    destroy () {
-        this.animations.forEach(animation => animation.kill());
+
+
+
     }
 
 

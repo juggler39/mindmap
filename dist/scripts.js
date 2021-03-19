@@ -10,8 +10,13 @@
     const $note = document.getElementById('note');
     const $container = document.getElementById('container');
     const $map = document.getElementById('map');
-    const map = new MindMap($map, MapConfig);
+    const map = new MindMap($map, {
+        imagesFolder: 'images/png'
+    });
 
-
+    window.addEventListener('resize', () => {
+        map.destroy();
+        map.init();
+    });
 
 })();
