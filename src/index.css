@@ -1,152 +1,34 @@
-/*
-    Common
-*/
-
-.mm {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-}
-.mm-circle {
-    position: absolute;
-    width: calc(var(--radius) * 2);
-    height: calc(var(--radius) * 2);
-    margin-top: calc(var(--radius) * -1);
-    margin-left: calc(var(--radius) * -1);
-    border-radius: 50%;
-    background: #F00;
-}
-.mm-circle--top {
-    margin-top: calc(var(--radius) * -1);
-}
-.mm-circle--bottom {
-    margin-bottom: calc(var(--radius) * -1);
-}
-.mm-circle--right {
-    margin-right: calc(var(--radius) * -1);
-}
-.mm-circle--left {
-    margin-left: calc(var(--radius) * -1);
-}
-
-
-.mm-rect {
-    position: absolute;
-}
-.mm-rect svg {
+.mm svg {
     width: 100%;
     height: 100%;
 }
-.mm-rect svg rect {
+
+.mm-border {
     fill: none;
     stroke-width: 10;
 }
-.mm-rect svg path {
-    fill: none;
-    stroke-width: 10;
+.mm-border--bg {
+    stroke: #FAFAFA;
 }
-
-/*.mm-*/
-
-/*.mm-lines,*/
-/*.mm-items,*/
-/*.mm-overlay {*/
-/*    position: absolute;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*}*/
-/*.mm-overlay {*/
-/*    opacity: 0;*/
-/*    pointer-events: none;*/
-/*    transition: opacity .3s;*/
-/*}*/
-
-
-
-/*!**/
-/*    Lines*/
-/**!*/
-
-/*.mm-rect {*/
-/*    fill: none;*/
-/*    stroke-width: 10;*/
-/*}*/
-/*.mm-stroke {*/
-/*    fill: none;*/
-/*    stroke-width: 10;*/
-/*    animation: mm-stroke 2s linear infinite;*/
-/*}*/
-/*@keyframes mm-stroke {*/
-/*    0% { stroke-dashoffset: 0; }*/
-/*    0% { stroke-dashoffset: var(--offset); }*/
-/*}*/
-/*.mm-line {*/
-/*    fill: none;*/
-/*    stroke-width: 10;*/
-/*    stroke-dasharray: 10;*/
-/*    animation: mm-line 1s linear infinite;*/
-/*}*/
-/*@keyframes mm-line {*/
-/*    0% { stroke-dashoffset: 0; }*/
-/*    0% { stroke-dashoffset: 20; }*/
-/*}*/
-
-
-
-/*!**/
-/*    Items*/
-/**!*/
-
-/*.mm-item,*/
-/*.mm-circle {*/
-/*    position: absolute;*/
-/*    top: 50%;*/
-/*    left: 50%;*/
-/*    width: calc(var(--r) * 2);*/
-/*    height: calc(var(--r) * 2);*/
-/*    margin-top: calc(var(--r) * -1);*/
-/*    margin-left: calc(var(--r) * -1);*/
-/*}*/
-/*.mm-circle {*/
-/*    display: flex;*/
-/*    flex-flow: column nowrap;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*}*/
-/*.mm-item {*/
-/*    transition: opacity .3s;*/
-/*}*/
-/*.mm-moon {*/
-/*    border-radius: 50%;*/
-/*    transition: transform .3s;*/
-/*}*/
-
-
-
-
-/*!**/
-/*    Content*/
-/**!*/
-
-/*.mm-image {*/
-/*    position: absolute;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*}*/
-/*.mm-label {*/
-/*    position: relative;*/
-/*    text-align: center;*/
-/*}*/
-/*.mm-video {*/
-/*    position: relative;*/
-/*    animation: mm-video 1s ease infinite;*/
-/*}*/
-/*@keyframes mm-video {*/
-/*    0% { transform: scale(1); }*/
-/*    50% { transform: scale(1.2); }*/
-/*    100% { transform: scale(1); }*/
-/*}*/
+.mm-planet {
+    fill: #EEE;
+    /*opacity: 0;*/
+}
+.mm-long {
+    /*opacity: 0;*/
+}
+.mm-short {
+    /*opacity: 0;*/
+}
+.mm-internal {
+    opacity: 0;
+}
+.mm-mb {
+    /*opacity: 0;*/
+}
+.mm-line {
+    stroke-width: 6;
+}
+.mm-line--orange {
+    stroke: #FFBC1D;
+}

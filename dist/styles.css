@@ -40,11 +40,6 @@ section {
     display: flex;
     flex-flow: column nowrap;
 }
-article {
-    position: relative;
-    flex-grow: 1;
-    overflow: hidden;
-}
 footer {
     background: #222;
     color: #FFFFFF;
@@ -59,8 +54,10 @@ footer {
 */
 
 .mm {
+    flex-grow: 1;
+    overflow: hidden;
     font-weight: 900;
-    background: #000;
+    /*outline: 1px solid #F00;*/
 }
 .mm-rect {
     stroke: #eee;
@@ -71,9 +68,9 @@ footer {
 .mm-stroke.level-0 {
     stroke: #0A69D2;
 }
-.mm-line {
-    stroke: #FFBC1D;
-}
+/*.mm-line {*/
+/*    stroke: #FFBC1D;*/
+/*}*/
 .mm-line.level-0 {
     stroke: #0A69D2;
 }
