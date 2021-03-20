@@ -58,41 +58,6 @@ footer {
     overflow: hidden;
     font-weight: 900;
 }
-.mm {
-    width: 100%;
-    height: 100%;
-    outline: 1px solid #F00;
-}
-.mm-rect {
-    stroke: #eee;
-}
-.mm-stroke {
-    stroke: #FFBC1D;
-}
-.mm-stroke.level-0 {
-    stroke: #0A69D2;
-}
-/*.mm-line {*/
-/*    stroke: #FFBC1D;*/
-/*}*/
-.mm-line.level-0 {
-    stroke: #0A69D2;
-}
-.mm-moon {
-    background: #F00;
-}
-.mm-label {
-    color: #FFF;
-    padding: 0 16px;
-    font-size: 32px;
-}
-.mm-video {
-    width: 64px;
-    height: 64px;
-}
-.mm-overlay {
-    background: #FFFFFF;
-}
 
 
 

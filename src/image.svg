@@ -204,61 +204,68 @@
 
         <g class="mm-moon">
             <image x="10" y="10" height="110" width="110" href="<%= dir %>/m6.png"/>
-            <text y="65">
+            <text class="mm-title" y="65">
                 <tspan x="65" dy="-10">Assignment</tspan>
                 <tspan x="65" dy="20">Module</tspan>
             </text>
+            <text class="mm-note">LightSail has built a comprehensive assignment module covering our four pillars of literacy: reading, writing, vocabulary, and fluency. All assignments have dedicated assignment chats, goals, commenting, highlighters and labels, a Call for Help feature if a child gets stuck, and more.</text>
         </g>
 
         <g class="mm-moon">
             <image x="10" y="10" height="110" width="110" href="<%= dir %>/m8.png"/>
-            <text y="65">
+            <text class="mm-title" y="65">
                 <tspan x="65" dy="-20">Import</tspan>
                 <tspan x="65" dy="20">Content</tspan>
                 <tspan x="65" dy="20">Wizard</tspan>
             </text>
+            <text class="mm-note">Import articles, website pages, pdfs, Word documents, or Google Docs into LightSail using the Import Content Wizard. Assign reading content from virtually any source within the safety of the LightSail platform and integrate it with LightSail’s features such as tracking reading minutes, adding cloze assessments, and more.</text>
         </g>
 
         <g class="mm-moon">
             <image x="10" y="10" height="110" width="110" href="<%= dir %>/m10.png"/>
-            <text y="65">
+            <text class="mm-title" y="65">
                 <tspan x="65" dy="-20">LightSail</tspan>
                 <tspan x="65" dy="20">Shared</tspan>
                 <tspan x="65" dy="20">Library</tspan>
             </text>
+            <text class="mm-note">Content you import with the Import Content Wizard is saved to your private drive where it can be edited, redacted, shared with your child, added to Library Collections, and more. </text>
         </g>
 
         <g class="mm-moon">
             <image x="10" y="10" height="110" width="110" href="<%= dir %>/m1.png"/>
-            <text y="65">
+            <text class="mm-title" y="65">
                 <tspan x="65" dy="-10">Donate</tspan>
                 <tspan x="65" dy="20">a license</tspan>
             </text>
+            <text class="mm-note">LightSail believes that the gift of literacy is one of the most powerful, life-changing gifts you can give. That is why the LightSail Foundation will donate a license for every license a family purchases to the charity of their choice.</text>
         </g>
 
         <g class="mm-moon">
             <image x="10" y="10" height="110" width="110" href="<%= dir %>/m2.png"/>
-            <text y="65">
+            <text class="mm-title" y="65">
                 <tspan x="65" dy="-10">Donate</tspan>
                 <tspan x="65" dy="20">a license</tspan>
             </text>
+            <text class="mm-note">LightSail believes that the gift of literacy is one of the most powerful, life-changing gifts you can give. That is why the LightSail Foundation will donate a license for every license a family purchases to the charity of their choice.</text>
         </g>
 
         <g class="mm-moon">
             <image x="10" y="10" height="110" width="110" href="<%= dir %>/m4.png"/>
-            <text y="65">
+            <text class="mm-title" y="65">
                 <tspan x="65" dy="-20">Search and</tspan>
                 <tspan x="65" dy="20">Advanced</tspan>
                 <tspan x="65" dy="20">Search</tspan>
             </text>
+            <text class="mm-note">LightSail uses predictive search technology to find content based on search queries. Additionally, the user can filter results by subject, genre, topic, classification, and Lexile level, making it easy for parents and children to find the resources they need.</text>
         </g>
 
         <g class="mm-planet">
             <circle r="65" cx="65" cy="65"/>
             <image x="0" y="0" height="130" width="130" href="<%= dir %>/p15.png"/>
-            <text y="65">
+            <text class="mm-title" y="65">
                 <tspan x="65" dy="0">Other</tspan>
             </text>
+            <text class="mm-note"></text>
         </g>
 
     </g>
@@ -270,49 +277,55 @@
 
         <g class="mm-moon">
             <image x="10" y="10" height="110" width="110" href="<%= dir %>/m6.png"/>
-            <text y="65">
+            <text class="mm-title" y="65">
                 <tspan x="65" dy="0">Book Chats</tspan>
             </text>
+            <text class="mm-note">The Book Chat feature adds another dimension to reading by allowing children to collaborate with their peers about what they’re reading. In LightSail, every book can have a public chat for every grade level in which children can ask questions, link to text within the book, express themselves with fun emojis, engage in an existing discussion, or start one of their own.</text>
         </g>
 
         <g class="mm-moon">
             <image x="10" y="10" height="110" width="110" href="<%= dir %>/m8.png"/>
-            <text y="65">
+            <text class="mm-title" y="65">
                 <tspan x="65" dy="0">Book Clubs</tspan>
             </text>
+            <text class="mm-note">Book clubs foster a love of reading in a positive community atmosphere. Parents and children can participate in LightSail book clubs together, which can be for the duration of a single book or an ongoing series of different books. </text>
         </g>
 
         <g class="mm-moon">
             <image x="10" y="10" height="110" width="110" href="<%= dir %>/m10.png"/>
-            <text y="65">
+            <text class="mm-title" y="65">
                 <tspan x="65" dy="0">Clubhouse</tspan>
             </text>
+            <text class="mm-note">LightSail knows that sharing a good book with others makes the reading experience richer and more enjoyable, bringing different perspectives and new insights. To encourage this, LightSail has created Clubhouses. A child’s clubhouse is their personal reading-related domain in which they pick the themes and guide the discussions.</text>
         </g>
 
         <g class="mm-moon">
             <image x="10" y="10" height="110" width="110" href="<%= dir %>/m2.png"/>
-            <text y="65">
+            <text class="mm-title" y="65">
                 <tspan x="65" dy="-10">Reading</tspan>
                 <tspan x="65" dy="20">Tournaments</tspan>
             </text>
+            <text class="mm-note">From March Madness to video games - we all love a good tournament! LightSail incentifies reading by letting children compete in reading tournaments for badges and other prizes. </text>
         </g>
 
         <g class="mm-moon">
             <image x="10" y="10" height="110" width="110" href="<%= dir %>/m4.png"/>
-            <text y="65">
+            <text class="mm-title" y="65">
                 <tspan x="65" dy="-20">Social</tspan>
                 <tspan x="65" dy="20">Sharing of</tspan>
                 <tspan x="65" dy="20">Achievements</tspan>
             </text>
+            <text class="mm-note">Children take pride in sharing their achievements with friends and family, so, with a parent’s permission, they can post their latest success to popular social media platforms like Facebook, Instagram, or Tiktok, or share them within the LightSail platform in Book Club and Clubhouse. Parents also have the opportunity to share their children’s achievements for them.</text>
         </g>
 
         <g class="mm-planet">
             <circle r="65" cx="65" cy="65"/>
             <image x="0" y="0" height="130" width="130" href="<%= dir %>/p14.png"/>
-            <text y="65">
+            <text class="mm-title" y="65">
                 <tspan x="65" dy="-10">Social</tspan>
                 <tspan x="65" dy="20">Features</tspan>
             </text>
+            <text class="mm-note">Humans are social. And since reading is a uniquely human experience, it can be even better when we share the experience with others. LightSail offers a variety of social, or community-centric, features that capitalize on the fact that shared activities and achievements or a little friendly competition can inspire excitement for reading.</text>
         </g>
 
     </g>
@@ -324,40 +337,45 @@
 
         <g class="mm-moon">
             <image x="10" y="10" height="110" width="110" href="<%= dir %>/m6.png"/>
-            <text y="65">
+            <text class="mm-title" y="65">
                 <tspan x="65" dy="0">Help Videos</tspan>
             </text>
+            <text class="mm-note">We have a complete library of help videos at your fingertips within the LightSail platform. Each screen within Lightsail has a play button for the corresponding help video where you can see an explanation of how to use each feature. Looking for something specific? Search our help center and find all videos related to your question.</text>
         </g>
 
         <g class="mm-moon">
             <image x="10" y="10" height="110" width="110" href="<%= dir %>/m9.png"/>
-            <text y="65">
+            <text class="mm-title" y="65">
                 <tspan x="65" dy="0">Webinars</tspan>
             </text>
+            <text class="mm-note">LightSail offers a complimentary weekly webinars for subscribers. These webinars are taught by experienced instructional coaches who will guide you through LightSail’s multitude of features to help you understand and use them with maximum effectiveness. Through this forum, you can chat with experienced educators and homeschoolers about your issues and challenges and get answers to your specific questions about growing your children into fully literate adults.</text>
         </g>
 
         <g class="mm-moon">
             <image x="10" y="10" height="110" width="110" href="<%= dir %>/m2.png"/>
-            <text y="65">
+            <text class="mm-title" y="65">
                 <tspan x="65" dy="-10">Facebook</tspan>
                 <tspan x="65" dy="20">Group</tspan>
             </text>
+            <text class="mm-note">We have a vibrant and engaged online community, hosted by our experienced homeschool experts who will share inside tips and tricks on using LightSail for homeschooling. Parents can interact with other LightSail homeschoolers, ask questions, share ideas, or just hang out and relax.</text>
         </g>
 
         <g class="mm-moon">
             <image x="10" y="10" height="110" width="110" href="<%= dir %>/m4.png"/>
-            <text y="65">
+            <text class="mm-title" y="65">
                 <tspan x="65" dy="0">Tech Support</tspan>
             </text>
+            <text class="mm-note">[Not sure what to specifically focus on for this one. Guidance please.]</text>
         </g>
 
         <g class="mm-planet">
             <circle r="65" cx="65" cy="65"/>
             <image x="0" y="0" height="130" width="130" href="<%= dir %>/p13.png"/>
-            <text y="65">
+            <text class="mm-title" y="65">
                 <tspan x="65" dy="-10">Parent</tspan>
                 <tspan x="65" dy="20">Support</tspan>
             </text>
+            <text class="mm-note">LightSail is serious about improving childrens literacy and is committed to helping parents build their children\'s literacy skills and fluency. To that end, we offer a variety of support options to not only help parents use LightSail to its maximum effectiveness, but answer their questions about literacy, homeschooling, and more.'</text>
         </g>
 
     </g>
@@ -370,9 +388,10 @@
         <g class="mm-planet">
             <circle r="65" cx="65" cy="65"/>
             <image x="0" y="0" height="130" width="130" href="<%= dir %>/p16.png"/>
-            <text y="65">
+            <text class="mm-title" y="65">
                 <tspan x="65" dy="0">Research</tspan>
             </text>
+            <text class="mm-note"></text>
         </g>
 
     </g>
@@ -389,34 +408,38 @@
 
         <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m6.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="-10">Parent</tspan>
                 <tspan x="75" dy="20">Dashboard</tspan>
             </text>
+            <text class="mm-note">With the in-depth information provided in the parent dashboard, parents know precisely how their child is progressing and where they might benefit from additional help or practice. From the Child’s Data section of a parent’s dashboard, they can view a total summary of all their child’s most important data points and then dive deeper into each one.</text>
         </g>
 
         <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m9.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="-10">Child</tspan>
                 <tspan x="75" dy="20">Dashboard</tspan>
             </text>
+            <text class="mm-note">Because LightSail believes that children also benefit from meaningful data, they have access to their own data dashboard. This encourages children to take ownership over their educational experience, set realistic goals for themselves, and feel confident knowing exactly how they are doing in their literacy growth.</text>
         </g>
 
         <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m2.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="0">Lexile</tspan>
             </text>
+            <text class="mm-note">Used every year by over 35 million children in the US alone, the Lexile framework is a proven tool to measure and forecast reading ability. Scientifically validated by over 1,000 external studies worldwide, including Johns Hopkins University, a Lexile assessment allows you to personalize and optimize a child’s education by finding books that are just the right “fit.”</text>
         </g>
 
         <g class="mm-planet">
             <circle r="75" cx="75" cy="75"/>
             <image x="0" y="0" height="150" width="150" href="<%= dir %>/p9.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="-10">Data</tspan>
                 <tspan x="75" dy="20">Feedback</tspan>
             </text>
+            <text class="mm-note">LightSail believes that meaningful data feedback is one of the most valuable tools parents and children can have to affect real literacy progress.</text>
         </g>
 
     </g>
@@ -428,72 +451,81 @@
 
         <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m6.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="0">Video Library</tspan>
             </text>
+            <text class="mm-note">Video has the ability to engage, educate, and entertain like nothing else does. That is why LightSail places that power in the hands of parents, allowing them to integrate educational video content with reading and writing assignments.</text>
         </g>
 
         <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m7.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="-10">360 Images</tspan>
                 <tspan x="75" dy="20">Image Library</tspan>
             </text>
+            <text class="mm-note">LightSail shows children the world and beyond with over 80 spectacular full 360° images, all enhanced with special features like ambient music that plays during viewing to boost engagement and interest.</text>
         </g>
 
         <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m8.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="-10">Google</tspan>
                 <tspan x="75" dy="20">Street View</tspan>
             </text>
+            <text class="mm-note">Bringing Google Street View into the LightSail platform provides a child-friendly, secure online space for exploring that parents can trust. Additionally, we’ve added a Randomization button kids love that transports them to unexpected and fascinating locales around the globe. </text>
         </g>
 
         <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m10.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="0">Live Streams</tspan>
             </text>
+            <text class="mm-note">LightSail brings homeschoolers over 1,500 live streams from around the world on high-interest, educational topics like landmarks, cities, animals, space, waterfalls, and more. </text>
         </g>
 
         <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m1.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="-10">World Book</tspan>
                 <tspan x="75" dy="20">Maps</tspan>
             </text>
+            <text class="mm-note">World Book's Atlas feature links to articles, tables, and data about the world, helping children find maps showing political, population, economic and meteorological information. Interactive maps let children explore by continent, country, state/province/region, city, or point of interest and find related articles and other resources.</text>
         </g>
 
         <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m2.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="-10">World Book</tspan>
                 <tspan x="75" dy="20">Timelines</tspan>
             </text>
+            <text class="mm-note">World Book Timelines is an interactive database of over 650 premade timelines and over 14,000 individual events. Children can use these timelines as-is, customize them for their individual lessons, or build their own from scratch. </text>
         </g>
 
         <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m3.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="-10">Ted Talk &</tspan>
                 <tspan x="75" dy="20">Ted-Ed Library</tspan>
             </text>
+            <text class="mm-note">LightSail has curated over 3,000 TED Talks especially for children on more than 150 high-interest topics like sports, art, activism, history, and science. Additionally, we offer TED-Ed videos, which are stylized or animated videos that inform and entertain. </text>
         </g>
 
         <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m4.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="-10">Action Clip</tspan>
                 <tspan x="75" dy="20">Library</tspan>
             </text>
+            <text class="mm-note">LightSail brings words to life for children with action clips. While videos bring context to books as a whole, action clips add a new dimension of understanding to words and phrases. Thousands of these high-quality, 5 to 30 second, educational clips are embedded in the books and articles in the platform, providing an additional layer of contextual imagery. From a cheetah running to a baseball player hitting a homerun, action clips allow children to visually experience what they are reading. </text>
         </g>
 
         <g class="mm-planet">
             <circle r="75" cx="75" cy="75"/>
             <image x="0" y="0" height="150" width="150" href="<%= dir %>/p8.png"/>
-            <text x="75" y="75">
+            <text class="mm-title" x="75" y="75">
                 <tspan dy="0">Multimedia</tspan>
             </text>
+            <text class="mm-note">LightSail is a complete language arts platform for the 21st Century, incorporating a vast array of multimedia resources. Explore the world's landmarks with full 360 [degree symbol] images. Build a digital, interactively timeline of the history of Rome. Incorporate educational videos and TED Talks into unit studies and so much more.</text>
         </g>
 
     </g>
@@ -505,51 +537,57 @@
 
         <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m6.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="0">Lexile</tspan>
             </text>
+            <text class="mm-note">Used every year by over 35 million children in the US alone, the Lexile framework is a proven tool to measure and forecast reading ability. Scientifically validated by over 1,000 external studies worldwide, including Johns Hopkins University, a Lexile assessment allows you to personalize and optimize a child’s education by finding books that are just the right “fit.”</text>
         </g>
 
         <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m8.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="-10">Cloze</tspan>
                 <tspan x="75" dy="20">Assessment</tspan>
             </text>
+            <text class="mm-note">LightSail provides your child with an authentic reading experience while also collecting data through embedded cloze (fill-in-the-blank) assessments. These assessments are placed through a special engine created in partnership with MetaMetrics®. As children read, a word is covered up with a green box. Children click on the box and select the word they think best fits in the blank space from a list of four options. Children then receive immediate feedback - and continue reading.</text>
         </g>
 
         <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m10.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="-20">Multiple</tspan>
                 <tspan x="75" dy="20">Choice</tspan>
                 <tspan x="75" dy="20">Questions</tspan>
             </text>
+            <text class="mm-note">LightSail contains thousands of multiple choice questions embedded at logical points throughout the texts. These leveled assessments help provide parents with additional insight into their children’s reading comprehension abilities.</text>
         </g>
 
         <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m2.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="-20">Short</tspan>
                 <tspan x="75" dy="20">Response</tspan>
                 <tspan x="75" dy="20">Questions</tspan>
             </text>
+            <text class="mm-note">LightSail has spent millions of dollars and thousands of hours hiring highly experienced teachers to add quality short response questions to their books, all aligned with commonly used standards. </text>
         </g>
 
         <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m4.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="-10">Power</tspan>
                 <tspan x="75" dy="20">Challenge</tspan>
             </text>
+            <text class="mm-note">A Power Challenge is an adaptive and unintimidating placement test that precisely determines a child’s reading level and allows LightSail to match the child with reading content that both engages and challenges them to grow as a reader.</text>
         </g>
 
         <g class="mm-planet">
             <circle r="75" cx="75" cy="75"/>
             <image x="0" y="0" height="150" width="150" href="<%= dir %>/p7.png"/>
-            <text x="75" y="75">
+            <text class="mm-title" x="75" y="75">
                 <tspan dy="0">Assessments</tspan>
             </text>
+            <text class="mm-note">LightSail uses multiple assessment techniques to precisely measure a child's reading level and then uses that information to tailor their educational experience precisely for them. A child's reading library, writing prompts, spelling words, and more will be leveled for each individual child, and LightSail will grow with them - adapting as they learn and progress.</text>
         </g>
 
     </g>
@@ -561,69 +599,77 @@
 
         <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m6.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="-10">Chat</tspan>
                 <tspan x="75" dy="20">Control</tspan>
             </text>
+            <text class="mm-note">Parents choose whether children can chat only within their immediate family, with others in their grade or a range of grades, or if they can chat at all. All of a child's chats are reviewable by parents. And they can report or remove their child from a chat at any time.</text>
         </g>
 
         <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m8.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="-10">Feature</tspan>
                 <tspan x="75" dy="20">Control</tspan>
             </text>
+            <text class="mm-note">Parents determine if their child is offered a Spelling Bee at the end of each book, if they can access the Action Clip library and, of so, at what times of the day, and more.</text>
         </g>
 
         <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m10.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="-10">Video</tspan>
                 <tspan x="75" dy="20">Control</tspan>
             </text>
+            <text class="mm-note">Parents set how many minutes a child must read before unlocking a video to watch, or they can give full access or block videos altogether. They also have the option of blocking videos during certain hours of the day.</text>
         </g>
 
         <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m1.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="-10">Audiobooks</tspan>
                 <tspan x="75" dy="20">Control</tspan>
             </text>
+            <text class="mm-note">Parents set how many minutes a child must read before unlocking an audiobook to listen to, or they can give full access or block audiobooks altogether. They also have the option of blocking audiobooks during certain hours of the day.</text>
         </g>
 
         <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m2.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="-20">Content</tspan>
                 <tspan x="75" dy="20">Appropriateness</tspan>
                 <tspan x="75" dy="20">Matrix</tspan>
             </text>
+            <text class="mm-note">LightSail has created an unparalleled content appropriateness tool that rates and tags content on dozens of factors and gives parents complete control over each child’s access. Our matrix divides categories of potentially objectionable content into highly detailed sub-categories. For example, the violence category has more than a dozen individual and highly nuanced tags. Moreover, the matrix goes beyond maturity ratings to include factors families care about based on their cultural and religious values.</text>
         </g>
 
         <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m3.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="-20">Grade</tspan>
                 <tspan x="75" dy="20">Appropriate</tspan>
                 <tspan x="75" dy="20">Content</tspan>
             </text>
+            <text class="mm-note">While LightSail serves content to children based on their Lexile reading level, LightSail also takes their grade level into consideration. This means that even if a child is a very advanced reader, they will not be offered content written for much more mature reader unless a parent approves it.</text>
         </g>
 
         <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m5.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="-10">Block</tspan>
                 <tspan x="75" dy="20">Content</tspan>
             </text>
+            <text class="mm-note">Parents always have the ability to block individual pieces of content for individual children, holding back books or videos on a case by case basis.</text>
         </g>
 
         <g class="mm-planet">
             <circle r="75" cx="75" cy="75"/>
             <image x="0" y="0" height="150" width="150" href="<%= dir %>/p6.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="-10">Parental</tspan>
                 <tspan x="75" dy="20">Control</tspan>
             </text>
+            <text class="mm-note">LightSail gives parents peace of mind knowing that they have complete oversight and control over all of their children’s content and activity like never before.</text>
         </g>
 
     </g>
@@ -635,54 +681,61 @@
 
         <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m6.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="0">Badges</tspan>
             </text>
+            <text class="mm-note">Badges are available for dozens of different activities and achievements. Children earn badges for everything from reading a book to completing a writing assignment, and parents can attach badges to assignments or goals of their choosing as well. On-screen rolls show children their progress toward earning badges, prompting them to fill up the bar to achieve the prize.</text>
         </g>
 
         <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m8.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="0">Goals</tspan>
             </text>
+            <text class="mm-note">Parents set reading goals based on how many minutes they would like their child to strive to read daily, weekly, or monthly. Children can see their progress toward their goal in an on-screen roll, and are rewarded for success with badges and other incentives.</text>
         </g>
 
         <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m10.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="0">Milestones</tspan>
             </text>
+            <text class="mm-note">Children set milestones for themselves, which are incremental in nature, empowering them to take ownership of their reading progress. Think of milestones as markers on a child’s road to reading success. Children can see their progress toward their milestones in an on-screen roll, and are rewarded for success with badges and other incentives.</text>
         </g>
 
         <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m2.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="0">Gifting</tspan>
             </text>
+            <text class="mm-note">A little extrinsic reward can be a powerful thing! LightSail gives parents the ability to offer customized “gift” rewards for reaching goals and completing assignments. With this feature, parents can creatively motivate children to read and write with meaningful rewards. Rather it’s staying up 30 minutes late or a special trip out for ice cream, parents determine what gift will provide that extra incentive to persevere.</text>
         </g>
 
         <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m3.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="0">Tournaments</tspan>
             </text>
+            <text class="mm-note">From March Madness to video games - we all love a good tournament! LightSail incentifies reading by letting children compete in reading tournaments for badges and other prizes. </text>
         </g>
 
         <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m4.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="-20">Cloze</tspan>
                 <tspan x="75" dy="20">Milestone</tspan>
                 <tspan x="75" dy="20">Roll</tspan>
             </text>
+            <text class="mm-note">Extra fun and encouragement is built in with gamification features like a cloze milestone roll. For every cloze answered correctly children will see progress in the roll. Every time a child fills up their roll, they receive a new badge.</text>
         </g>
 
         <g class="mm-planet">
             <circle r="75" cx="75" cy="75"/>
             <image x="0" y="0" height="150" width="150" href="<%= dir %>/p5.png"/>
-            <text x="75" y="75">
+            <text class="mm-title" x="75" y="75">
                 <tspan dy="0">Gamification</tspan>
             </text>
+            <text class="mm-note">LightSail believes reading and writing should be fun! That is why gamification is built into every aspect of the platform with motivational badges, incentifying gifts, social sharing options, and more.</text>
         </g>
 
     </g>
@@ -694,42 +747,47 @@
 
         <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m6.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="0">Rubrics</tspan>
             </text>
+            <text class="mm-note">Parents with no experience grading need not fear. LightSail provides parents with simple exemplar-based rubrics and rationales to help them provide their children with quality, actionable feedback. Parents are also able to customize and create their own rubrics.</text>
         </g>
 
         <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m9.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="-10">Standard</tspan>
                 <tspan x="75" dy="20">grading</tspan>
             </text>
+            <text class="mm-note">LightSail's simple standard grading options give parents four possible grade choices to assign. But these are not typical letter grades. They are informative responses that give your child contextual feedback, while aligning with standard levels of "below," "approaching," "on," and "above" target.</text>
         </g>
 
         <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m2.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="-20">LightSail's</tspan>
                 <tspan x="75" dy="20">automatic</tspan>
                 <tspan x="75" dy="20">grading</tspan>
             </text>
+            <text class="mm-note">LightSail automatically grades a child's cloze assessments, Spelling Bees, and multiple choice responses, freeing parents to focus on more important tasks.</text>
         </g>
 
         <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m4.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="-10">Running</tspan>
                 <tspan x="75" dy="20">Record</tspan>
             </text>
+            <text class="mm-note">Ever wonder how to grade your child's read-aloud ability or track their read-aloud growth over time? By creating Running Records, you get objective, detailed insight into another critical component, their reading confidence and accuracy. </text>
         </g>
 
         <g class="mm-planet">
             <circle r="75" cx="75" cy="75"/>
             <image x="0" y="0" height="150" width="150" href="<%= dir %>/p12.png"/>
-            <text x="75" y="75">
+            <text class="mm-title" x="75" y="75">
                 <tspan dy="0">Grading</tspan>
             </text>
+            <text class="mm-note">In addition to the multiple ways that LightSail automatically assesses a child’s progress, a parent can easily grade a child’s answers to short response questions using either standard grading or a simple rubric. And LightSail contains a powerful tool for objectively grading and tracking your child's fluency progress called a Running Record.</text>
         </g>
 
     </g>
@@ -741,44 +799,49 @@
 
         <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m6.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="-10">Personalized</tspan>
                 <tspan x="75" dy="20">Reader</tspan>
             </text>
+            <text class="mm-note">LightSail’s one-of-a-kind Personalized Reader tool helps struggling readers unlock the magic of books. Whether a child’s reading difficulties are due to dyslexia, ADHD, CVI (cortical visual impairment), or simple distraction, Personalized Reader by LightSail allows them to fully customize their reading experience and access the content in ways no physical book or static e-reader can.</text>
         </g>
 
         <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m9.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="-30">Lerner</tspan>
                 <tspan x="75" dy="20">Digital</tspan>
                 <tspan x="75" dy="20">Interactive</tspan>
                 <tspan x="75" dy="20">Books</tspan>
             </text>
+            <text class="mm-note">Designed to improve literacy skills for emergent and struggling readers, Lerner Digitial Interactive Books are audio e-books with enhanced features like a comprehension quiz, a teacher's guide, and supplemental activities.</text>
         </g>
 
         <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m2.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="-10">Audiobook</tspan>
                 <tspan x="75" dy="20">Library</tspan>
             </text>
+            <text class="mm-note">LightSail contains over 1,500 audiobooks of three different types to suit different readers: standard audiobooks, audiobooks with text highlighting by word, and audiobooks with text highlighting by sentence. </text>
         </g>
 
         <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m4.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="0">Syllables</tspan>
             </text>
+            <text class="mm-note">The Syllables feature, available in all LightSail books and articles, will, by default, break down 2-, 3-, and 4-syllable words--showing them color-coded and separated into syllables within the text of the book itself as well as hyphenated by syllable within the side panel. This feature is perfect for children still mastering phonics and decoding, struggling readers, or even more advanced readers as they encounter never-before-read vocabulary.</text>
         </g>
 
         <g class="mm-planet">
             <circle r="75" cx="75" cy="75"/>
             <image x="0" y="0" height="150" width="150" href="<%= dir %>/p11.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="-10">Struggling</tspan>
                 <tspan x="75" dy="20">Reders</tspan>
             </text>
+            <text class="mm-note">LightSail's goal is to make the world a more literate place, so it brings many one-of-a-kind features and quality content especially designed to support struggling readers.</text>
         </g>
 
     </g>
@@ -790,55 +853,61 @@
 
         <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m6.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="-10">World Book</tspan>
                 <tspan x="75" dy="20">Kids</tspan>
             </text>
+            <text class="mm-note">World Book Kids takes the depth and breadth of information in a full reference library and presents it in an interactive, easy to read format that is perfect for younger students. High-interest content adapted especially for this age group invites children to dig deeper into topics and make knowledge connections between different subjects. </text>
         </g>
 
         <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m8.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="-10">World Book</tspan>
                 <tspan x="75" dy="20">Early Learners</tspan>
             </text>
+            <text class="mm-note">LightSail has partnered with World Book, a trusted source for educational content for over 100 years, to bring interactive learning resources to LightSail families for every child, from the preschool years and up. World Book’s digital early learning resources, designed for the preschool and kindergarten age group, provides engaging, playful content that will delight and entertain as it builds a foundation of knowledge and skills for later learning.</text>
         </g>
 
         <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m10.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="-30">Lerner</tspan>
                 <tspan x="75" dy="20">Digital</tspan>
                 <tspan x="75" dy="20">Interactive</tspan>
                 <tspan x="75" dy="20">Books</tspan>
             </text>
+            <text class="mm-note">Designed to improve literacy skills for emergent and struggling readers, Lerner Digitial Interactive Books are audio e-books with enhanced features like a comprehension quiz, a teacher's guide, and supplemental activities.</text>
         </g>
 
         <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m2.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="-40">Lerner</tspan>
                 <tspan x="75" dy="20">Collections</tspan>
                 <tspan x="75" dy="20">like Crayola.</tspan>
                 <tspan x="75" dy="20">Sesame Street,</tspan>
                 <tspan x="75" dy="20">etc.</tspan>
             </text>
+            <text class="mm-note">LightSail's partnership with Lerner brings branded collections of books that will delight and engage young readers from Crayola, Sesame Street, and others.</text>
         </g>
 
         <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m4.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="0">Syllables</tspan>
             </text>
+            <text class="mm-note">The Syllables feature, available in all LightSail books and articles, will, by default, break down 2-, 3-, and 4-syllable words--showing them color-coded and separated into syllables within the text of the book itself as well as hyphenated by syllable within the side panel. This feature is perfect for children still mastering phonics and decoding, struggling readers, or even more advanced readers as they encounter never-before-read vocabulary.</text>
         </g>
 
         <g class="mm-planet">
             <circle r="75" cx="75" cy="75"/>
             <image x="0" y="0" height="150" width="150" href="<%= dir %>/p10.png"/>
-            <text y="75">
+            <text class="mm-title" y="75">
                 <tspan x="75" dy="-10">Early</tspan>
                 <tspan x="75" dy="20">Learners</tspan>
             </text>
+            <text class="mm-note">LightSail has captivating and educational content for every member of the family, from preschoolers to adults. Our features for early learners help little ones build a strong foundation of knowledge and skills, make connections, learn independently, and aquire research and navigation skills -- all while having fun!</text>
         </g>
 
     </g>
@@ -855,46 +924,55 @@
 
         <g class="mm-moon">
             <image x="30" y="30" height="110" width="110" href="<%= dir %>/m8.png"/>
-            <text y="85">
+            <text class="mm-title" y="85">
                 <tspan x="85" dy="-20">Read-Aloud</tspan>
                 <tspan x="85" dy="20">Retelling</tspan>
                 <tspan x="85" dy="20">Assignment</tspan>
             </text>
+            <text class="mm-note">In a Read-Aloud / Retelling assignment, a parent first chooses a selection of text for their child to read. Optionally, a parent can also add a retelling portion to the assignment. When your child is finished recording their read-aloud, LightSail will prompt them to record themselves telling you what the passage they just read was about in their own words.</text>
         </g>
 
         <g class="mm-moon">
             <image x="30" y="30" height="110" width="110" href="<%= dir %>/m6.png"/>
-            <text y="85">
+            <text class="mm-title" y="85">
                 <tspan x="85" dy="-10">Read-Aloud</tspan>
                 <tspan x="85" dy="20">in a Book</tspan>
             </text>
+            <text class="mm-note">While reading any book or article in LightSail, the Read Aloud feature allows children to spontaneously record themselves reading a portion of text and send it to a parent for their review and feedback.</text>
         </g>
 
         <g class="mm-moon">
             <image x="30" y="30" height="110" width="110" href="<%= dir %>/m4.png"/>
-            <text y="85">
+            <text class="mm-title" y="85">
                 <tspan x="85" dy="-30">Speaking</tspan>
                 <tspan x="85" dy="20">Listening</tspan>
                 <tspan x="85" dy="20">Writing</tspan>
                 <tspan x="85" dy="20">Assignment</tspan>
             </text>
+            <text class="mm-note">A Speaking/Listening/Writing assignment is an activity-based module that can be configured in many different ways to assess and practice linguistic fluency skills. For example, a parent could ask their child to read a poem and respond with a narrative summary.</text>
         </g>
 
         <g class="mm-moon">
             <image x="30" y="30" height="110" width="110" href="<%= dir %>/m2.png"/>
-            <text y="85">
+            <text class="mm-title" y="85">
                 <tspan x="85" dy="-10">Running</tspan>
                 <tspan x="85" dy="20">Record</tspan>
             </text>
+            <text class="mm-note">Creating a running record will allow you to easily and objectively assess and track your child’s fluency and read-aloud accuracy. After a child is finished recording a Read-Aloud assignment, the parent creates a running record, which allows LightSail to calculate their WCPM (words correct per minute). </text>
         </g>
 
         <g class="mm-planet">
             <circle r="85" cx="85" cy="85"/>
             <image x="0" y="0" height="170" width="170" href="<%= dir %>/p3.png"/>
-            <image x="85" y="85" height="47" width="47" transform="translate(-23.5, 5)" href="<%= dir %>/video.png"/>
-            <text x="85" y="85">
+            <image x="85" y="85" height="47" width="47" transform="translate(-23.5, 5)" href="<%= dir %>/video.png" class="mm-video"
+               data-video-src="https://player.vimeo.com/video/523712834"
+               data-video-width="640"
+               data-video-height="360"
+            />
+            <text class="mm-title" x="85" y="85">
                 <tspan dy="-5">Fluency</tspan>
             </text>
+            <text class="mm-note">Measuring your child’s fluency is critical to having a complete picture of their literacy skills. Other metrics, like how many pages a week they read or even how well they comprehend the content, do not give you all of the pieces. Having an objective way to measure how well your child reads aloud is the only way to gauge whether they are confident, fluent readers.</text>
         </g>
 
     </g>
@@ -906,88 +984,99 @@
 
         <g class="mm-moon">
             <image x="30" y="30" height="110" width="110" href="<%= dir %>/m7.png"/>
-            <text y="85">
+            <text class="mm-title" y="85">
                 <tspan x="85" dy="0">Book Library</tspan>
             </text>
+            <text class="mm-note">With LightSail, every child's book library will be different because it will be personalized just for them. With book suggestions based on both a child's precise Lexile reading level and their interests, no two libraries will be the same - just like no two children are the same.</text>
         </g>
 
         <g class="mm-moon">
             <image x="30" y="30" height="110" width="110" href="<%= dir %>/m6.png"/>
-            <text y="85">
+            <text class="mm-title" y="85">
                 <tspan x="85" dy="-10">Audiobook</tspan>
                 <tspan x="85" dy="20">Library</tspan>
             </text>
+            <text class="mm-note">LightSail contains over 1,500 audiobooks of three different types to suit different readers: standard audiobooks, audiobooks with text highlighting by word, and audiobooks with text highlighting by sentence. </text>
         </g>
 
         <g class="mm-moon">
             <image x="30" y="30" height="110" width="110" href="<%= dir %>/m5.png"/>
-            <text y="85">
+            <text class="mm-title" y="85">
                 <tspan x="85" dy="-10">World Book</tspan>
                 <tspan x="85" dy="20">Encyclopedia</tspan>
             </text>
+            <text class="mm-note">LightSail has partnered with World Book Encyclopedia, a source parents have trusted for educational content for over 100 years, to bring over 50,000 encyclopedia articles into the platform that are all enhanced with LightSail’s seven layers of educational features.</text>
         </g>
 
         <g class="mm-moon">
             <image x="30" y="30" height="110" width="110" href="<%= dir %>/m4.png"/>
-            <text y="85">
+            <text class="mm-title" y="85">
                 <tspan x="85" dy="-10">Biography</tspan>
                 <tspan x="85" dy="20">Center</tspan>
             </text>
+            <text class="mm-note">In LightSail’s Biography Center, children can explore books, encyclopedia articles, and other content about famous and infamous people from history and the present day. Our Biography Center contains curated biography collections and shelves of biographies organized alphabetically by last name. The search function also lets children sort by area of work or interest, nationality, ethnicity, gender, or time period.</text>
         </g>
 
         <g class="mm-moon">
             <image x="30" y="30" height="110" width="110" href="<%= dir %>/m3.png"/>
-            <text y="85">
+            <text class="mm-title" y="85">
                 <tspan x="85" dy="-30">Lerner</tspan>
                 <tspan x="85" dy="20">Digital</tspan>
                 <tspan x="85" dy="20">Interactive</tspan>
                 <tspan x="85" dy="20">Books</tspan>
             </text>
+            <text class="mm-note">Designed to improve literacy skills for emergent and struggling readers, Lerner Digitial Interactive Books are audio e-books with enhanced features like a comprehension quiz, a teacher's guide, and supplemental activities.</text>
         </g>
 
         <g class="mm-moon">
             <image x="30" y="30" height="110" width="110" href="<%= dir %>/m2.png"/>
-            <text y="85">
+            <text class="mm-title" y="85">
                 <tspan x="85" dy="0">Lerner Sports</tspan>
             </text>
+            <text class="mm-note">Lerner Sports explores the backgrounds, career-defining moments, and everyday lives of popular athletes. Accessible directly through the LightSail platform, the Lerner Sports module helps children develop research skills and citation experience for reports or simply provides a child-friendly space for pleasure reading.</text>
         </g>
 
         <g class="mm-moon">
             <image x="30" y="30" height="110" width="110" href="<%= dir %>/m1.png"/>
-            <text y="85">
+            <text class="mm-title" y="85">
                 <tspan x="85" dy="-10">Library</tspan>
                 <tspan x="85" dy="20">Collections</tspan>
             </text>
+            <text class="mm-note">Library Collections are groups of books, encyclopedia articles, videos, images, and action clips centered around a particular topic or central theme. These collections are perfect for unit studies or thematic learning, allowing a parent to gather content of their choosing and present it to a child for self-study either indefinitely or for a certain period of time.</text>
         </g>
 
         <g class="mm-moon">
             <image x="30" y="30" height="110" width="110" href="<%= dir %>/m10.png"/>
-            <text y="85">
+            <text class="mm-title" y="85">
                 <tspan x="85" dy="-10">Classics</tspan>
                 <tspan x="85" dy="20">Library</tspan>
             </text>
+            <text class="mm-note">LightSail has brought 3000 of the most widely acclaimed fiction and non-fiction works in history together in LightSail Classics. This curated collection of books represents the most relevant literature to Western culture, from Ancient Greece, to Medieval England, to Revolutionary Russia, to Progressive America. This collection encompasses the most thought-provoking and delightful works for readers, preschool through adult.</text>
         </g>
 
         <g class="mm-moon">
             <image x="30" y="30" height="110" width="110" href="<%= dir %>/m8.png"/>
-            <text y="85">
+            <text class="mm-title" y="85">
                 <tspan x="85" dy="0">Homework</tspan>
             </text>
+            <text class="mm-note">LightSail gives parents the ability to create independent study assignments, set up accountability checks, and ensure that a certain amount of reading is accomplished with the Homework feature.</text>
         </g>
 
         <g class="mm-moon">
             <image x="30" y="30" height="110" width="110" href="<%= dir %>/m8.png"/>
-            <text y="85">
+            <text class="mm-title" y="85">
                 <tspan x="85" dy="0">Buy Books</tspan>
             </text>
+            <text class="mm-note">The Buy Books feature is LightSail’s secure e-commerce platform, a veritable bookstore at your fingertips. Here, parents and children can directly purchase tens of thousands of individual titles and book bundles from dozens of top publishers, including popular homeschool and faith-based publishers.</text>
         </g>
 
         <g class="mm-planet">
             <circle r="85" cx="85" cy="85"/>
             <image x="0" y="0" height="170" width="170" href="<%= dir %>/p2.png"/>
-            <text x="85" y="85">
+            <text class="mm-title" x="85" y="85">
                 <tspan>Reading</tspan>
             </text>
+            <text class="mm-note">By presenting children with a wide array of content that is both captivating and at just the right reading level, by harnessing the power of adaptive technology to monitor reading progress and assist children with accessing text, and by creating a fun, interactive reading experience - LightSail helps children grow into fully literate adults who possess a lifelong love of reading.</text>
         </g>
 
     </g>
@@ -999,70 +1088,79 @@
 
         <g class="mm-moon">
             <image x="30" y="30" height="110" width="110" href="<%= dir %>/m6.png"/>
-            <text y="85">
+            <text class="mm-title" y="85">
                 <tspan x="85" dy="0">My Journal</tspan>
             </text>
+            <text class="mm-note">My Journal is a space especially for your child’s personal notes and thoughts. It can be both a reading journal, integrated with their library, and a regular diary </text>
         </g>
 
         <g class="mm-moon">
             <image x="30" y="30" height="110" width="110" href="<%= dir %>/m7.png"/>
-            <text y="85">
+            <text class="mm-title" y="85">
                 <tspan x="85" dy="-10">Authentic</tspan>
                 <tspan x="85" dy="20">Writing</tspan>
             </text>
+            <text class="mm-note">LightSail’s most creative writing module is Authentic Writing. This module directly relates books to real-life writing scenarios by allowing a child to take a problem, idea, or situation from a book and write about it in an authentic format</text>
         </g>
 
         <g class="mm-moon">
             <image x="30" y="30" height="110" width="110" href="<%= dir %>/m8.png"/>
-            <text y="85">
+            <text class="mm-title" y="85">
                 <tspan x="85" dy="0">Essay</tspan>
             </text>
+            <text class="mm-note">LightSail’s Essay Writing module focuses on a specific prompt that a child will answer relating to a book they’re reading and is completely customizable for learners at all levels</text>
         </g>
 
         <g class="mm-moon">
             <image x="30" y="30" height="110" width="110" href="<%= dir %>/m10.png"/>
-            <text y="85">
+            <text class="mm-title" y="85">
                 <tspan x="85" dy="-10">Inquiry</tspan>
                 <tspan x="85" dy="20">Report</tspan>
             </text>
+            <text class="mm-note">LightSail’s Inquiry Writing module uses the KWL (Know - Want to Know - Learned) strategy to guide children through the fundamentals of writing a research paper.</text>
         </g>
 
         <g class="mm-moon">
             <image x="30" y="30" height="110" width="110" href="<%= dir %>/m1.png"/>
-            <text y="85">
+            <text class="mm-title" y="85">
                 <tspan x="85" dy="0">Book Report</tspan>
             </text>
+            <text class="mm-note">LightSail has taken the age-old concept of a book report and made it fun and fresh for both parents and children. The basic premise remains the same - a child reads a book and then responds with a short essay or by answering a series of questions. Only now, with LightSail’s unparalleled content selection and cutting-edge technology, this writing format is an even more substantial tool for homeschoolers than ever before.</text>
         </g>
 
         <g class="mm-moon">
             <image x="30" y="30" height="110" width="110" href="<%= dir %>/m2.png"/>
-            <text y="85">
+            <text class="mm-title" y="85">
                 <tspan x="85" dy="-10">Writing</tspan>
                 <tspan x="85" dy="20">Skills Builder</tspan>
             </text>
+            <text class="mm-note">Grammar and Language Skill Builder is a module that works on the mechanics of writing, allowing parents to quickly and easily craft assignments which strengthen the nuts and bolts of a child’s writing skills.</text>
         </g>
 
         <g class="mm-moon">
             <image x="30" y="30" height="110" width="110" href="<%= dir %>/m3.png"/>
-            <text y="85">
+            <text class="mm-title" y="85">
                 <tspan x="85" dy="-10">Informal</tspan>
                 <tspan x="85" dy="20">Writing</tspan>
             </text>
+            <text class="mm-note">Informal Writing Workshops are fun, gamified writing prompts that teach through real-life writing encounters that children will want to engage in. These workshops provide grade-appropriate scenarios for children to experience writing in an organic and relatable way like mock social media posts, fun and creative free-writing prompts, and even hashtag challenges.</text>
         </g>
 
         <g class="mm-moon">
             <image x="30" y="30" height="110" width="110" href="<%= dir %>/m4.png"/>
-            <text y="85">
+            <text class="mm-title" y="85">
                 <tspan x="85" dy="0">Author a Book</tspan>
             </text>
+            <text class="mm-note">One of LightSail’s most exciting features is Author a Book. With this feature, your child can stretch their imagination and their reading and writing skills by creating their own book and publishing it for other children around the world to read, with a parent’s permission.</text>
         </g>
 
         <g class="mm-planet">
             <circle r="85" cx="85" cy="85"/>
             <image x="0" y="0" height="170" width="170" href="<%= dir %>/p1.png"/>
-            <text x="85" y="85">
+            <text class="mm-title" x="85" y="85">
                 <tspan>Writing</tspan>
             </text>
+            <text class="mm-note">Our approach to writing is multi-faceted. LightSail combines features for teaching the mechanics of writing, with modules that guide children through different writing pieces. Creativity and unlimited inspiration are fostered by the unique way LightSail integrates the books your children read and the topics they are already interested in.</text>
         </g>
 
     </g>
@@ -1074,72 +1172,85 @@
 
         <g class="mm-moon">
             <image x="30" y="30" height="110" width="110" href="<%= dir %>/m6.png"/>
-            <text y="85">
+            <text class="mm-title" y="85">
                 <tspan x="85" dy="0">Clozes</tspan>
             </text>
+            <text class="mm-note">As a child reads a book on LightSail, they encounter a cloze, or blank, and they must choose the appropriate word from among four possible options to fill that space. These clozes take your child from being a passive consumer of the content to being an active participant, absorbing and analyzing the information. Clozes require them to think critically about the text, make inferences, and draw on prior knowledge, and as they make word choices to fill in the blanks, they learn new words and word meanings in a very organic way.</text>
         </g>
 
         <g class="mm-moon">
             <image x="30" y="30" height="110" width="110" href="<%= dir %>/m7.png"/>
-            <text y="85">
+            <text class="mm-title" y="85">
                 <tspan x="85" dy="0">Spelling Bee</tspan>
             </text>
+            <text class="mm-note">Children are offered Spelling Bees whenever they finish reading a book. When a child participates in a Spelling Bee, they aren’t just learning to spell. They hear the proper pronunciation of a word, its part of speech, synonyms for the word, and its usage in a sentence.</text>
         </g>
 
         <g class="mm-moon">
             <image x="30" y="30" height="110" width="110" href="<%= dir %>/m8.png"/>
-            <text y="85">
+            <text class="mm-title" y="85">
                 <tspan x="85" dy="-10">Vocabulary</tspan>
                 <tspan x="85" dy="20">Assessment</tspan>
             </text>
+            <text class="mm-note">With Vocabulary Assignments, parents can proactively help their children practice new vocabulary words. One of the many great ways to use this tool is by assigning word lists from other subjects your child is studying like science or history.</text>
         </g>
 
         <g class="mm-moon">
             <image x="30" y="30" height="110" width="110" href="<%= dir %>/m10.png"/>
-            <text y="85">
+            <text class="mm-title" y="85">
                 <tspan x="85" dy="0">Word Work</tspan>
             </text>
+            <text class="mm-note">LightSail’s Word Work module does precisely what it sounds like; it helps your child work on vocabulary and spelling words they have answered incorrectly in the course of their assignments. With Word Work, you don’t have to worry that your child is senselessly practicing vocabulary they have already mastered.</text>
         </g>
 
         <g class="mm-moon">
             <image x="30" y="30" height="110" width="110" href="<%= dir %>/m1.png"/>
-            <text y="85">
+            <text class="mm-title" y="85">
                 <tspan x="85" dy="-20">Synonym</tspan>
                 <tspan x="85" dy="20">Definition</tspan>
                 <tspan x="85" dy="20">Builder</tspan>
             </text>
+            <text class="mm-note">Synonym / Definition Builder is a full dictionary that a child can access either from directly inside the books and articles they read by clicking on any word or from anywhere on their dashboard. They can read definitions, see synonyms and parts of speech in a word tree, and see word translations and examples of the word used in sentences.</text>
         </g>
 
         <g class="mm-moon">
             <image x="30" y="30" height="110" width="110" href="<%= dir %>/m2.png"/>
-            <text y="85">
+            <text class="mm-title" y="85">
                 <tspan x="85" dy="-10">Parts of</tspan>
                 <tspan x="85" dy="20">Speech</tspan>
             </text>
+            <text class="mm-note">When a child opens the Parts of Speech feature while reading a book, LightSail immediately color-codes all of the nouns on the page with a purple box - the default setting. Different parts of speech each have their own color, and children can highlight any or all of them as they read. Verbs, adjectives, conjunctions, and more can be color-coded either within the text of the book itself or shown in the side panel.</text>
         </g>
 
         <g class="mm-moon">
             <image x="30" y="30" height="110" width="110" href="<%= dir %>/m3.png"/>
-            <text y="85">
+            <text class="mm-title" y="85">
                 <tspan x="85" dy="-10">Parts of</tspan>
                 <tspan x="85" dy="20">Speech</tspan>
             </text>
+            <text class="mm-note">Parts of Speech is a feature inside books and articles that lets your child highlight and isolate words based on their part of speech. Homeschoolers and others will find Parts of Speech useful for writing lessons, diagramming sentences, or to examine the structure of classical works of literature, prose, and poetry, and it is an invaluable tool for learning grammar, vocabulary, syntax, sentence structure, and more.</text>
         </g>
 
         <g class="mm-moon">
             <image x="30" y="30" height="110" width="110" href="<%= dir %>/m4.png"/>
-            <text y="85">
+            <text class="mm-title" y="85">
                 <tspan x="85" dy="0">Word Lists</tspan>
             </text>
+            <text class="mm-note">LightSail provides targeted word lists for parents to choose from when creating Spelling Bees and Vocabulary Assignments. Search by Lexile level, word families, sight words, themed words, and more. Then, choose from individual words or entire lists to create personalized assignments for your child.</text>
         </g>
 
         <g class="mm-planet">
             <circle r="85" cx="85" cy="85"/>
             <image x="0" y="0" height="170" width="170" href="<%= dir %>/p4.png"/>
-            <image x="85" y="85" height="47" width="47" transform="translate(-23.5, 5)" href="<%= dir %>/video.png"/>
-            <text x="85" y="85">
+            <image x="85" y="85" height="47" width="47" transform="translate(-23.5, 5)" href="<%= dir %>/video.png" class="mm-video"
+                   data-video-src="https://player.vimeo.com/video/523998312"
+                   data-video-width="640"
+                   data-video-height="352"
+            />/>
+            <text class="mm-title" x="85" y="85">
                 <tspan dy="-5">Vocabulary</tspan>
             </text>
+            <text class="mm-note">LightSail takes a spiral approach to teaching vocabulary that is immersive and individualized. We integrate vocabulary instruction into the platform in multiple ways, presenting children with new words in a variety of contexts and increasing their comprehension as they encounter these words multiple times. Additionally, the words chosen for your child are completely personalized to their individual Lexile reading comprehension and vocabulary level, which automatically adjusts as they learn.</text>
         </g>
 
     </g>
@@ -1150,7 +1261,10 @@
         Sun
     -->
 
-    <circle class="mm-planet" r="120" cx="<%= 704 + x3 %>" cy="<%= 704 + y3 %>"/>
+    <g class="mm-sun" transform="translate(<%= 704 - 120 + x3 %> <%= 704 - 120 + y3 %>)">
+        <circle r="120" cx="120" cy="120"/>
+        <image x="0" y="0" height="240" width="240" href="<%= dir %>/sun.png"/>
+    </g>
 
 
 

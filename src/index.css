@@ -10,7 +10,8 @@
 .mm-border--bg {
     stroke: #FAFAFA;
 }
-.mm-planet {
+.mm-sun circle,
+.mm-planet circle {
     fill: #EEE;
     /*opacity: 0;*/
 }
@@ -47,8 +48,12 @@
 .mm-moon text {
     font-size: 14px;
 }
+.mm-note {
+    display: none;
+}
 
 .mm-overlay {
     display: none;
     fill: rgba(255,255,255,0.7);
+    pointer-events: none;
 }

@@ -4,7 +4,7 @@ import Config from '@/config'
 import Image from '@/image.svg'
 import createBorders from '@/create/borders'
 import createLines from '@/create/lines'
-import createClicks from '@/create/clicks'
+import createListeners from '@/create/listeners'
 const compile = template(Image);
 
 export default class MindMap {
@@ -16,6 +16,7 @@ export default class MindMap {
     // ----------------------
 
     constructor ($node, options) {
+        this.listeners = [];
         this.$node = $node;
         this.$node.classList.add('mm');
         this.animations = [];
@@ -37,7 +38,7 @@ export default class MindMap {
         this.$node.innerHTML = compile({ w, h, x1, x2, x3, x4, x5, x6, y1, y2, y3, y4, y5, y6, dir });
         createBorders(this);
         createLines(this);
-        createClicks(this);
+        createListeners(this);
     }
     
     destroy () {
