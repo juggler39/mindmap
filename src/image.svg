@@ -461,9 +461,46 @@
     <g transform="translate(<%= 1069 - 75 + x5 %> <%= 1069 - 75 + y5 %>)">
 
         <g class="mm-moon">
+            <image x="20" y="20" height="110" width="110" href="<%= dir %>/m6.png"/>
+            <text y="75">
+                <tspan x="75" dy="0">Badges</tspan>
+            </text>
+        </g>
+
+        <g class="mm-moon">
+            <image x="20" y="20" height="110" width="110" href="<%= dir %>/m8.png"/>
+            <text y="75">
+                <tspan x="75" dy="0">Goals</tspan>
+            </text>
+        </g>
+
+        <g class="mm-moon">
+            <image x="20" y="20" height="110" width="110" href="<%= dir %>/m10.png"/>
+            <text y="75">
+                <tspan x="75" dy="0">Milestones</tspan>
+            </text>
+        </g>
+
+        <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m2.png"/>
             <text y="75">
-                <tspan x="75" dy="0">Running</tspan>
+                <tspan x="75" dy="0">Gifting</tspan>
+            </text>
+        </g>
+
+        <g class="mm-moon">
+            <image x="20" y="20" height="110" width="110" href="<%= dir %>/m3.png"/>
+            <text y="75">
+                <tspan x="75" dy="0">Tournaments</tspan>
+            </text>
+        </g>
+
+        <g class="mm-moon">
+            <image x="20" y="20" height="110" width="110" href="<%= dir %>/m4.png"/>
+            <text y="75">
+                <tspan x="75" dy="-20">Cloze</tspan>
+                <tspan x="75" dy="20">Milestone</tspan>
+                <tspan x="75" dy="20">Roll</tspan>
             </text>
         </g>
 
@@ -483,9 +520,34 @@
     <g transform="translate(<%= 1069 - 75 + x5 %> <%= 704 - 75 + y3 %>)">
 
         <g class="mm-moon">
+            <image x="20" y="20" height="110" width="110" href="<%= dir %>/m6.png"/>
+            <text y="75">
+                <tspan x="75" dy="0">Rubrics</tspan>
+            </text>
+        </g>
+
+        <g class="mm-moon">
+            <image x="20" y="20" height="110" width="110" href="<%= dir %>/m9.png"/>
+            <text y="75">
+                <tspan x="75" dy="-10">Standard</tspan>
+                <tspan x="75" dy="20">grading</tspan>
+            </text>
+        </g>
+
+        <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m2.png"/>
             <text y="75">
-                <tspan x="75" dy="0">Running</tspan>
+                <tspan x="75" dy="-20">LightSail's</tspan>
+                <tspan x="75" dy="20">automatic</tspan>
+                <tspan x="75" dy="20">grading</tspan>
+            </text>
+        </g>
+
+        <g class="mm-moon">
+            <image x="20" y="20" height="110" width="110" href="<%= dir %>/m4.png"/>
+            <text y="75">
+                <tspan x="75" dy="-10">Running</tspan>
+                <tspan x="75" dy="20">Record</tspan>
             </text>
         </g>
 
@@ -505,9 +567,35 @@
     <g transform="translate(<%= 1069 - 75 + x5 %> <%= 339 - 75 + y1 %>)">
 
         <g class="mm-moon">
+            <image x="20" y="20" height="110" width="110" href="<%= dir %>/m6.png"/>
+            <text y="75">
+                <tspan x="75" dy="-10">Personalized</tspan>
+                <tspan x="75" dy="20">Reader</tspan>
+            </text>
+        </g>
+
+        <g class="mm-moon">
+            <image x="20" y="20" height="110" width="110" href="<%= dir %>/m9.png"/>
+            <text y="75">
+                <tspan x="75" dy="-30">Lerner</tspan>
+                <tspan x="75" dy="20">Digital</tspan>
+                <tspan x="75" dy="20">Interactive</tspan>
+                <tspan x="75" dy="20">Books</tspan>
+            </text>
+        </g>
+
+        <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m2.png"/>
             <text y="75">
-                <tspan x="75" dy="0">Running</tspan>
+                <tspan x="75" dy="-10">Audiobook</tspan>
+                <tspan x="75" dy="20">Library</tspan>
+            </text>
+        </g>
+
+        <g class="mm-moon">
+            <image x="20" y="20" height="110" width="110" href="<%= dir %>/m4.png"/>
+            <text y="75">
+                <tspan x="75" dy="0">Syllables</tspan>
             </text>
         </g>
 
@@ -528,9 +616,46 @@
     <g transform="translate(<%= 704 - 75 + x3 %> <%= 339 - 75 + y1 %>)">
 
         <g class="mm-moon">
+            <image x="20" y="20" height="110" width="110" href="<%= dir %>/m6.png"/>
+            <text y="75">
+                <tspan x="75" dy="-10">World Book</tspan>
+                <tspan x="75" dy="20">Kids</tspan>
+            </text>
+        </g>
+
+        <g class="mm-moon">
+            <image x="20" y="20" height="110" width="110" href="<%= dir %>/m8.png"/>
+            <text y="75">
+                <tspan x="75" dy="-10">World Book</tspan>
+                <tspan x="75" dy="20">Early Learners</tspan>
+            </text>
+        </g>
+
+        <g class="mm-moon">
+            <image x="20" y="20" height="110" width="110" href="<%= dir %>/m10.png"/>
+            <text y="75">
+                <tspan x="75" dy="-30">Lerner</tspan>
+                <tspan x="75" dy="20">Digital</tspan>
+                <tspan x="75" dy="20">Interactive</tspan>
+                <tspan x="75" dy="20">Books</tspan>
+            </text>
+        </g>
+
+        <g class="mm-moon">
             <image x="20" y="20" height="110" width="110" href="<%= dir %>/m2.png"/>
             <text y="75">
-                <tspan x="75" dy="0">Running</tspan>
+                <tspan x="75" dy="-40">Lerner</tspan>
+                <tspan x="75" dy="20">Collections</tspan>
+                <tspan x="75" dy="20">like Crayola.</tspan>
+                <tspan x="75" dy="20">Sesame Street,</tspan>
+                <tspan x="75" dy="20">etc.</tspan>
+            </text>
+        </g>
+
+        <g class="mm-moon">
+            <image x="20" y="20" height="110" width="110" href="<%= dir %>/m4.png"/>
+            <text y="75">
+                <tspan x="75" dy="0">Syllables</tspan>
             </text>
         </g>
 
