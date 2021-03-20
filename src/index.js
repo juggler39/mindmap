@@ -1,9 +1,11 @@
 import '@/index.css'
+import template from 'lodash.template'
 import Config from '@/config'
-import SVG from '@/svg'
+import Image from '@/image.svg'
 import createBorders from '@/create/borders'
 import createLines from '@/create/lines'
 import createClicks from '@/create/clicks'
+const compile = template(Image);
 
 export default class MindMap {
 
@@ -30,7 +32,9 @@ export default class MindMap {
         const x = (w - Config.size) / 6;
         const y = (h - Config.size) / 6;        
         const dir = this.options.imagesFolder;
-        this.$node.innerHTML = SVG({ w, h, x, y, dir });
+        const x1 = x, x2 = x * 2, x3 = x * 3, x4 = x * 4, x5 = x * 5, x6 = x * 6;
+        const y1 = y, y2 = y * 2, y3 = y * 3, y4 = y * 4, y5 = y * 5, y6 = y * 6;
+        this.$node.innerHTML = compile({ w, h, x1, x2, x3, x4, x5, x6, y1, y2, y3, y4, y5, y6, dir });
         createBorders(this);
         createLines(this);
         createClicks(this);

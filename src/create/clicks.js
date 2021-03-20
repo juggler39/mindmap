@@ -13,7 +13,8 @@ export default function (map) {
         const $next = $group.nextElementSibling;
         const $moons = $group.querySelectorAll('.mm-moon');
         const $circle = $group.querySelector('circle');
-        const r = +$circle.getAttribute('r') + Config.moon.margin + Config.moon.r;
+        const m = +$group.getAttribute('data-moon-margin');
+        const r = +$circle.getAttribute('r') + (m || Config.moon.margin) + Config.moon.r;
         const animations = Array.from($moons).map(($moon, i) => {
             const a = Math.PI * 2 / $moons.length * i;
             const x = r * Math.cos(a);

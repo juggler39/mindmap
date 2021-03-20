@@ -201,18 +201,196 @@ export default function ({ w, h, x, y, dir }) {
 
 
         <!--
-            Planets 2
+            Orbit 2
         -->
-    
-        <g>
-            <circle class="mm-planet" r="75" cx="${339 + x1}" cy="${339 + y1}" />
-            <circle class="mm-planet" r="75" cx="${339 + x1}" cy="${704 + y3}" />
-            <circle class="mm-planet" r="75" cx="${339 + x1}" cy="${1069 + y5}" />            
-            <circle class="mm-planet" r="75" cx="${704 + x3}" cy="${1069 + y5}" />
-            <circle class="mm-planet" r="75" cx="${1069 + x5}" cy="${1069 + y5}" />
-            <circle class="mm-planet" r="75" cx="${1069 + x5}" cy="${704 + y3}" />
-            <circle class="mm-planet" r="75" cx="${1069 + x5}" cy="${339 + y1}" />
-            <circle class="mm-planet" r="75" cx="${704 + x3}" cy="${339 + y1}" />    
+        
+        <!-- Data Feedback -->
+        
+        <g transform="translate(${339 - 75 + x1} ${339 - 75 + y1})">
+        
+            <g class="mm-moon">
+                <image x="20" y="20" height="110" width="110" href="${dir}/m2.png"/>
+                <text y="75">
+                    <tspan x="75" dy="0">Running</tspan>
+                </text>
+            </g>     
+            
+            <g class="mm-moon">
+                <image x="20" y="20" height="110" width="110" href="${dir}/m2.png"/>
+                <text y="75">
+                    <tspan x="75" dy="0">Running</tspan>
+                </text>
+            </g>  
+            
+            <g class="mm-moon">
+                <image x="20" y="20" height="110" width="110" href="${dir}/m2.png"/>
+                <text y="75">
+                    <tspan x="75" dy="0">Running</tspan>
+                </text>
+            </g>         
+        
+            <g class="mm-planet">
+                <circle r="75" cx="75" cy="75" />
+                <image x="0" y="0" height="150" width="150" href="${dir}/p3.png"/>
+                <text x="75" y="75">
+                    <tspan dy="0">Data Feedback</tspan>
+                </text>
+            </g>     
+        
+        </g>
+        
+        
+        <!-- MultiMedia -->
+        
+         <g transform="translate(${339 - 75 + x1} ${704 - 75 + y3})">
+         
+             <g class="mm-moon">
+                <image x="20" y="20" height="110" width="110" href="${dir}/m2.png"/>
+                <text y="75">
+                    <tspan x="75" dy="0">Running</tspan>
+                </text>
+            </g>            
+        
+            <g class="mm-planet">
+                <circle r="75" cx="75" cy="75" />
+                <image x="0" y="0" height="150" width="150" href="${dir}/p3.png"/>
+                <text x="75" y="75">
+                    <tspan dy="0">Data Feedback</tspan>
+                </text>
+            </g>    
+         
+        </g>
+        
+        
+        <!-- Assessments -->
+        
+         <g transform="translate(${339 - 75 + x1} ${1069 - 75 + y5})">
+         
+             <g class="mm-moon">
+                <image x="20" y="20" height="110" width="110" href="${dir}/m2.png"/>
+                <text y="75">
+                    <tspan x="75" dy="0">Running</tspan>
+                </text>
+            </g>            
+        
+            <g class="mm-planet">
+                <circle r="75" cx="75" cy="75" />
+                <image x="0" y="0" height="150" width="150" href="${dir}/p3.png"/>
+                <text x="75" y="75">
+                    <tspan dy="0">Data Feedback</tspan>
+                </text>
+            </g>    
+         
+        </g>
+        
+        
+        <!-- Parental Control -->
+        
+         <g transform="translate(${704 - 75 + x3} ${1069 - 75 + y5})">
+         
+             <g class="mm-moon">
+                <image x="20" y="20" height="110" width="110" href="${dir}/m2.png"/>
+                <text y="75">
+                    <tspan x="75" dy="0">Running</tspan>
+                </text>
+            </g>            
+        
+            <g class="mm-planet">
+                <circle r="75" cx="75" cy="75" />
+                <image x="0" y="0" height="150" width="150" href="${dir}/p3.png"/>
+                <text x="75" y="75">
+                    <tspan dy="0">Data Feedback</tspan>
+                </text>
+            </g>    
+         
+        </g>
+        
+        
+        <!-- Gamification -->
+        
+         <g transform="translate(${1069 - 75 + x5} ${1069 - 75 + y5})">
+         
+            <g class="mm-moon">
+                <image x="20" y="20" height="110" width="110" href="${dir}/m2.png"/>
+                <text y="75">
+                    <tspan x="75" dy="0">Running</tspan>
+                </text>
+            </g>            
+        
+            <g class="mm-planet">
+                <circle r="75" cx="75" cy="75" />
+                <image x="0" y="0" height="150" width="150" href="${dir}/p3.png"/>
+                <text x="75" y="75">
+                    <tspan dy="0">Data Feedback</tspan>
+                </text>
+            </g>    
+         
+        </g>
+        
+        
+        <!-- Grading -->
+        
+         <g transform="translate(${1069 - 75 + x5} ${704 - 75 + y3})">
+         
+            <g class="mm-moon">
+                <image x="20" y="20" height="110" width="110" href="${dir}/m2.png"/>
+                <text y="75">
+                    <tspan x="75" dy="0">Running</tspan>
+                </text>
+            </g>            
+        
+            <g class="mm-planet">
+                <circle r="75" cx="75" cy="75" />
+                <image x="0" y="0" height="150" width="150" href="${dir}/p3.png"/>
+                <text x="75" y="75">
+                    <tspan dy="0">Data Feedback</tspan>
+                </text>
+            </g>    
+         
+        </g>
+        
+        
+        <!-- Struggling Reders -->
+        
+         <g transform="translate(${1069 - 75 + x5} ${339 - 75 + y1})">
+         
+             <g class="mm-moon">
+                <image x="20" y="20" height="110" width="110" href="${dir}/m2.png"/>
+                <text y="75">
+                    <tspan x="75" dy="0">Running</tspan>
+                </text>
+            </g>            
+        
+            <g class="mm-planet">
+                <circle r="75" cx="75" cy="75" />
+                <image x="0" y="0" height="150" width="150" href="${dir}/p3.png"/>
+                <text x="75" y="75">
+                    <tspan dy="0">Data Feedback</tspan>
+                </text>
+            </g>    
+         
+        </g>
+        
+        
+        <!-- Early Learners -->
+        
+         <g transform="translate(${704 - 75 + x3} ${339 - 75 + y1})">
+         
+            <g class="mm-moon">
+                <image x="20" y="20" height="110" width="110" href="${dir}/m2.png"/>
+                <text y="75">
+                    <tspan x="75" dy="0">Running</tspan>
+                </text>
+            </g>            
+        
+            <g class="mm-planet">
+                <circle r="75" cx="75" cy="75" />
+                <image x="0" y="0" height="150" width="150" href="${dir}/p3.png"/>
+                <text x="75" y="75">
+                    <tspan dy="0">Data Feedback</tspan>
+                </text>
+            </g>    
+         
         </g>
 
 
@@ -273,13 +451,249 @@ export default function ({ w, h, x, y, dir }) {
         </g>
         
         
-        <!-- fluency (499, 499, 85) -->
+        <!-- Reading (499, 909, 85) -->
         
-        <circle class="mm-planet" r="85" cx="${499 + x2}" cy="${909 + y4}" />
-        <circle class="mm-planet" r="85" cx="${909 + x4}" cy="${909 + y4}" />
+        <g transform="translate(${499 - 85 + x2} ${909 - 85 + y4})" data-moon-margin="48">
+        
+            <g class="mm-moon">
+                <image x="30" y="30" height="110" width="110" href="${dir}/m7.png"/>
+                <text y="85">
+                    <tspan x="85" dy="0">Book Library</tspan>              
+                </text>
+            </g>
+            
+            <g class="mm-moon">
+                <image x="30" y="30" height="110" width="110" href="${dir}/m6.png"/>
+                <text y="85">
+                    <tspan x="85" dy="-10">Audiobook</tspan>
+                    <tspan x="85" dy="20">Library</tspan>
+                </text>
+            </g>            
+            
+            <g class="mm-moon">
+                <image x="30" y="30" height="110" width="110" href="${dir}/m5.png"/>
+                <text y="85">
+                    <tspan x="85" dy="-10">World Book</tspan>
+                    <tspan x="85" dy="20">Encyclopedia</tspan>
+                </text>
+            </g>            
+            
+            <g class="mm-moon">
+                <image x="30" y="30" height="110" width="110" href="${dir}/m4.png"/>
+                <text y="85">
+                    <tspan x="85" dy="-10">Biography</tspan>
+                    <tspan x="85" dy="20">Center</tspan>
+                </text>
+            </g>    
+            
+             <g class="mm-moon">
+                <image x="30" y="30" height="110" width="110" href="${dir}/m3.png"/>
+                <text y="85">
+                    <tspan x="85" dy="-30">Lerner</tspan>
+                    <tspan x="85" dy="20">Digital</tspan>
+                    <tspan x="85" dy="20">Interactive</tspan>
+                    <tspan x="85" dy="20">Books</tspan>
+                </text>
+            </g>
+            
+            <g class="mm-moon">
+                <image x="30" y="30" height="110" width="110" href="${dir}/m2.png"/>
+                <text y="85">
+                    <tspan x="85" dy="0">Lerner Sports</tspan> 
+                </text>
+            </g>            
+            
+            <g class="mm-moon">
+                <image x="30" y="30" height="110" width="110" href="${dir}/m1.png"/>
+                <text y="85">
+                    <tspan x="85" dy="-10">Library</tspan>
+                    <tspan x="85" dy="20">Collections</tspan>
+                </text>
+            </g>            
+            
+            <g class="mm-moon">
+                <image x="30" y="30" height="110" width="110" href="${dir}/m10.png"/>
+                <text y="85">                 
+                    <tspan x="85" dy="-10">Classics</tspan>
+                    <tspan x="85" dy="20">Library</tspan>
+                </text>
+            </g>              
+        
+            <g class="mm-moon">
+                <image x="30" y="30" height="110" width="110" href="${dir}/m8.png"/>
+                <text y="85">
+                    <tspan x="85" dy="0">Homework</tspan>
+                </text>
+            </g>    
+            
+            <g class="mm-moon">
+                <image x="30" y="30" height="110" width="110" href="${dir}/m8.png"/>
+                <text y="85">
+                    <tspan x="85" dy="0">Buy Books</tspan>
+                </text>
+            </g>              
+        
+             <g class="mm-planet">
+                <circle r="85" cx="85" cy="85" />
+                <image x="0" y="0" height="170" width="170" href="${dir}/p2.png"/>
+                <text x="85" y="85">
+                    <tspan>Reading</tspan>
+                </text>
+            </g>    
+        
+        </g>
+        
+
+        <!-- writing (909, 909, 85) -->
+        
+        <g transform="translate(${909 - 85 +  x4} ${909 - 85 + y4})">
+        
+            <g class="mm-moon">
+                <image x="30" y="30" height="110" width="110" href="${dir}/m6.png"/>
+                <text y="85">
+                    <tspan x="85" dy="0">My Journal</tspan>
+                </text>
+            </g>
+            
+            <g class="mm-moon">
+                <image x="30" y="30" height="110" width="110" href="${dir}/m7.png"/>
+                <text y="85">
+                    <tspan x="85" dy="-10">Authentic</tspan>
+                    <tspan x="85" dy="20">Writing</tspan>        
+                </text>
+            </g>            
+            
+            <g class="mm-moon">
+                <image x="30" y="30" height="110" width="110" href="${dir}/m8.png"/>
+                <text y="85">
+                    <tspan x="85" dy="0">Essay</tspan>
+                </text>
+            </g>            
+            
+            <g class="mm-moon">
+                <image x="30" y="30" height="110" width="110" href="${dir}/m10.png"/>
+                <text y="85">
+                    <tspan x="85" dy="-10">Inquiry</tspan>
+                    <tspan x="85" dy="20">Report</tspan>
+                </text>
+            </g>   
+            
+            <g class="mm-moon">
+                <image x="30" y="30" height="110" width="110" href="${dir}/m1.png"/>
+                <text y="85">
+                    <tspan x="85" dy="0">Book Report</tspan>
+                </text>
+            </g>
+            
+            <g class="mm-moon">
+                <image x="30" y="30" height="110" width="110" href="${dir}/m2.png"/>
+                <text y="85">
+                    <tspan x="85" dy="-10">Writing</tspan>
+                    <tspan x="85" dy="20">Skills Builder</tspan>       
+                </text>
+            </g>            
+            
+            <g class="mm-moon">
+                <image x="30" y="30" height="110" width="110" href="${dir}/m3.png"/>
+                <text y="85">
+                    <tspan x="85" dy="-10">Informal</tspan>
+                    <tspan x="85" dy="20">Writing</tspan>
+                </text>
+            </g>            
+            
+            <g class="mm-moon">
+                <image x="30" y="30" height="110" width="110" href="${dir}/m4.png"/>
+                <text y="85">
+                    <tspan x="85" dy="0">Author a Book</tspan>
+                </text>
+            </g>               
+        
+            <g class="mm-planet">
+                <circle r="85" cx="85" cy="85" />
+                <image x="0" y="0" height="170" width="170" href="${dir}/p1.png"/>
+                <text x="85" y="85">
+                    <tspan>Writing</tspan>
+                </text>
+            </g>          
+            
+        </g>
         
         
-        <circle class="mm-planet" r="85" cx="${909 + x4}" cy="${499 + y2}" />
+        <!-- Vocabulary -->
+        
+        <g transform="translate(${909 - 85 + x4} ${499 - 85 + y2})">
+        
+           <g class="mm-moon">
+                <image x="30" y="30" height="110" width="110" href="${dir}/m6.png"/>
+                <text y="85">
+                    <tspan x="85" dy="0">Clozes</tspan>
+                </text>
+            </g>
+            
+            <g class="mm-moon">
+                <image x="30" y="30" height="110" width="110" href="${dir}/m7.png"/>
+                <text y="85">
+                    <tspan x="85" dy="0">Spelling Bee</tspan>     
+                </text>
+            </g>            
+            
+            <g class="mm-moon">
+                <image x="30" y="30" height="110" width="110" href="${dir}/m8.png"/>
+                <text y="85">                 
+                    <tspan x="85" dy="-10">Vocabulary</tspan>
+                    <tspan x="85" dy="20">Assessment</tspan>
+                </text>
+            </g>
+            
+            <g class="mm-moon">
+                <image x="30" y="30" height="110" width="110" href="${dir}/m10.png"/>
+                <text y="85">
+                    <tspan x="85" dy="0">Word Work</tspan>
+                </text>
+            </g>   
+            
+            <g class="mm-moon">
+                <image x="30" y="30" height="110" width="110" href="${dir}/m1.png"/>
+                <text y="85">
+                    <tspan x="85" dy="-20">Synonym</tspan>
+                    <tspan x="85" dy="20">Definition</tspan>
+                    <tspan x="85" dy="20">Builder</tspan>
+                </text>
+            </g>
+            
+            <g class="mm-moon">
+                <image x="30" y="30" height="110" width="110" href="${dir}/m2.png"/>
+                <text y="85">
+                    <tspan x="85" dy="-10">Parts of</tspan>
+                    <tspan x="85" dy="20">Speech</tspan>       
+                </text>
+            </g>            
+            
+            <g class="mm-moon">
+                <image x="30" y="30" height="110" width="110" href="${dir}/m3.png"/>
+                <text y="85">
+                    <tspan x="85" dy="-10">Parts of</tspan>
+                    <tspan x="85" dy="20">Speech</tspan>
+                </text>
+            </g>            
+            
+            <g class="mm-moon">
+                <image x="30" y="30" height="110" width="110" href="${dir}/m4.png"/>
+                <text y="85">
+                    <tspan x="85" dy="0">Word Lists</tspan>
+                </text>
+            </g>                
+        
+            <g class="mm-planet">
+                <circle r="85" cx="85" cy="85" />
+                <image x="0" y="0" height="170" width="170" href="${dir}/p4.png"/>
+                <image x="85" y="85" height="47" width="47" transform="translate(-23.5, 5)" href="${dir}/video.png"/>
+                <text x="85" y="85">
+                    <tspan dy="-5">Vocabulary</tspan>
+                </text>
+            </g>          
+            
+        </g>
     
     
     
