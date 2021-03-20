@@ -193,15 +193,188 @@
     </g>
 
 
+
     <!--
-        Planets 3
+        Orbit 3
     -->
 
-    <g>
-        <circle class="mm-planet" r="65" cx="<%= 199 %>" cy="<%= 199 %>"/>
-        <circle class="mm-planet" r="65" cx="<%= 199 %>" cy="<%= 1209 + y6 %>"/>
-        <circle class="mm-planet" r="65" cx="<%= 1209 + x6 %>" cy="<%= 1209 + y6 %>"/>
-        <circle class="mm-planet" r="65" cx="<%= 1209 + x6 %>" cy="<%= 199 %>"/>
+    <!-- Other -->
+
+    <g transform="translate(<%= 199 - 65 %> <%= 199 - 65 %>)">
+
+        <g class="mm-moon">
+            <image x="10" y="10" height="110" width="110" href="<%= dir %>/m6.png"/>
+            <text y="65">
+                <tspan x="65" dy="-10">Assignment</tspan>
+                <tspan x="65" dy="20">Module</tspan>
+            </text>
+        </g>
+
+        <g class="mm-moon">
+            <image x="10" y="10" height="110" width="110" href="<%= dir %>/m8.png"/>
+            <text y="65">
+                <tspan x="65" dy="-20">Import</tspan>
+                <tspan x="65" dy="20">Content</tspan>
+                <tspan x="65" dy="20">Wizard</tspan>
+            </text>
+        </g>
+
+        <g class="mm-moon">
+            <image x="10" y="10" height="110" width="110" href="<%= dir %>/m10.png"/>
+            <text y="65">
+                <tspan x="65" dy="-20">LightSail</tspan>
+                <tspan x="65" dy="20">Shared</tspan>
+                <tspan x="65" dy="20">Library</tspan>
+            </text>
+        </g>
+
+        <g class="mm-moon">
+            <image x="10" y="10" height="110" width="110" href="<%= dir %>/m1.png"/>
+            <text y="65">
+                <tspan x="65" dy="-10">Donate</tspan>
+                <tspan x="65" dy="20">a license</tspan>
+            </text>
+        </g>
+
+        <g class="mm-moon">
+            <image x="10" y="10" height="110" width="110" href="<%= dir %>/m2.png"/>
+            <text y="65">
+                <tspan x="65" dy="-10">Donate</tspan>
+                <tspan x="65" dy="20">a license</tspan>
+            </text>
+        </g>
+
+        <g class="mm-moon">
+            <image x="10" y="10" height="110" width="110" href="<%= dir %>/m4.png"/>
+            <text y="65">
+                <tspan x="65" dy="-20">Search and</tspan>
+                <tspan x="65" dy="20">Advanced</tspan>
+                <tspan x="65" dy="20">Search</tspan>
+            </text>
+        </g>
+
+        <g class="mm-planet">
+            <circle r="65" cx="65" cy="65"/>
+            <image x="0" y="0" height="130" width="130" href="<%= dir %>/p15.png"/>
+            <text y="65">
+                <tspan x="65" dy="0">Other</tspan>
+            </text>
+        </g>
+
+    </g>
+
+
+    <!-- Social Features -->
+
+    <g transform="translate(<%= 199 - 65 %> <%= 1209 - 65 + y6 %>)">
+
+        <g class="mm-moon">
+            <image x="10" y="10" height="110" width="110" href="<%= dir %>/m6.png"/>
+            <text y="65">
+                <tspan x="65" dy="0">Book Chats</tspan>
+            </text>
+        </g>
+
+        <g class="mm-moon">
+            <image x="10" y="10" height="110" width="110" href="<%= dir %>/m8.png"/>
+            <text y="65">
+                <tspan x="65" dy="0">Book Clubs</tspan>
+            </text>
+        </g>
+
+        <g class="mm-moon">
+            <image x="10" y="10" height="110" width="110" href="<%= dir %>/m10.png"/>
+            <text y="65">
+                <tspan x="65" dy="0">Clubhouse</tspan>
+            </text>
+        </g>
+
+        <g class="mm-moon">
+            <image x="10" y="10" height="110" width="110" href="<%= dir %>/m2.png"/>
+            <text y="65">
+                <tspan x="65" dy="-10">Reading</tspan>
+                <tspan x="65" dy="20">Tournaments</tspan>
+            </text>
+        </g>
+
+        <g class="mm-moon">
+            <image x="10" y="10" height="110" width="110" href="<%= dir %>/m4.png"/>
+            <text y="65">
+                <tspan x="65" dy="-20">Social</tspan>
+                <tspan x="65" dy="20">Sharing of</tspan>
+                <tspan x="65" dy="20">Achievements</tspan>
+            </text>
+        </g>
+
+        <g class="mm-planet">
+            <circle r="65" cx="65" cy="65"/>
+            <image x="0" y="0" height="130" width="130" href="<%= dir %>/p14.png"/>
+            <text y="65">
+                <tspan x="65" dy="-10">Social</tspan>
+                <tspan x="65" dy="20">Features</tspan>
+            </text>
+        </g>
+
+    </g>
+
+
+    <!-- Parent Support -->
+
+    <g transform="translate(<%= 1209 - 65 + x6 %> <%= 1209 - 65 + y6 %>)">
+
+        <g class="mm-moon">
+            <image x="10" y="10" height="110" width="110" href="<%= dir %>/m6.png"/>
+            <text y="65">
+                <tspan x="65" dy="0">Help Videos</tspan>
+            </text>
+        </g>
+
+        <g class="mm-moon">
+            <image x="10" y="10" height="110" width="110" href="<%= dir %>/m9.png"/>
+            <text y="65">
+                <tspan x="65" dy="0">Webinars</tspan>
+            </text>
+        </g>
+
+        <g class="mm-moon">
+            <image x="10" y="10" height="110" width="110" href="<%= dir %>/m2.png"/>
+            <text y="65">
+                <tspan x="65" dy="-10">Facebook</tspan>
+                <tspan x="65" dy="20">Group</tspan>
+            </text>
+        </g>
+
+        <g class="mm-moon">
+            <image x="10" y="10" height="110" width="110" href="<%= dir %>/m4.png"/>
+            <text y="65">
+                <tspan x="65" dy="0">Tech Support</tspan>
+            </text>
+        </g>
+
+        <g class="mm-planet">
+            <circle r="65" cx="65" cy="65"/>
+            <image x="0" y="0" height="130" width="130" href="<%= dir %>/p13.png"/>
+            <text y="65">
+                <tspan x="65" dy="-10">Parent</tspan>
+                <tspan x="65" dy="20">Support</tspan>
+            </text>
+        </g>
+
+    </g>
+
+
+    <!-- Research -->
+
+    <g transform="translate(<%= 1209 - 65 + x6 %> <%= 199 - 65 %>)">
+
+        <g class="mm-planet">
+            <circle r="65" cx="65" cy="65"/>
+            <image x="0" y="0" height="130" width="130" href="<%= dir %>/p16.png"/>
+            <text y="65">
+                <tspan x="65" dy="0">Research</tspan>
+            </text>
+        </g>
+
     </g>
 
 

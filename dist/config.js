@@ -565,132 +565,132 @@ const MapConfig = {
                 }
             ]
         },
-        //
-        //
-        // // 2
-        //
-        // {
-        //     orbit: 2,
-        //     position: {
-        //         bottom: 0,
-        //         right: 0
-        //     },
-        //     image: 'images/13.svg',
-        //     label: 'Parent Support',
-        //     note: 'LightSail is serious about improving childrens literacy and is committed to helping parents build their children\'s literacy skills and fluency. To that end, we offer a variety of support options to not only help parents use LightSail to its maximum effectiveness, but answer their questions about literacy, homeschooling, and more.',
-        //     moons: [
-        //         {
-        //             image: 'planets/svg/moon-yellow.svg',
-        //             label: 'Help Videos',
-        //             note: 'We have a complete library of help videos at your fingertips within the LightSail platform. Each screen within Lightsail has a play button for the corresponding help video where you can see an explanation of how to use each feature. Looking for something specific? Search our help center and find all videos related to your question.'
-        //         },
-        //         {
-        //             image: 'planets/svg/moon-blue.svg',
-        //             label: 'Webinars',
-        //             note: 'LightSail offers a complimentary weekly webinars for subscribers.\nThese webinars are taught by experienced instructional coaches who will guide you through LightSail’s multitude of features to help you understand and use them with maximum effectiveness. Through this forum, you can chat with experienced educators and homeschoolers about your issues and challenges and get answers to your specific questions about growing your children into fully literate adults.'
-        //         },
-        //         {
-        //             image: 'planets/svg/moon-purple.svg',
-        //             label: 'Facebook Group',
-        //             note: 'We have a vibrant and engaged online community, hosted by our experienced homeschool experts who will share inside tips and tricks on using LightSail for homeschooling. Parents can interact with other LightSail homeschoolers, ask questions, share ideas, or just hang out and relax.'
-        //         },
-        //         {
-        //             image: 'planets/svg/moon-red.svg',
-        //             label: 'Tech Support',
-        //             note: '[Not sure what to specifically focus on for this one. Guidance please.]'
-        //         }
-        //     ]
-        // },
-        // {
-        //     orbit: 2,
-        //     position: {
-        //         bottom: 0,
-        //         left: 0
-        //     },
-        //     image: 'images/14.svg',
-        //     label: 'Social Features',
-        //     note: 'Humans are social. And since reading is a uniquely human experience, it can be even better when we share the experience with others. LightSail offers a variety of social, or community-centric, features that capitalize on the fact that shared activities and achievements or a little friendly competition can inspire excitement for reading.',
-        //     moons: [
-        //         {
-        //             image: 'planets/svg/moon-purple.svg',
-        //             label: 'Book Chats',
-        //             note: 'The Book Chat feature adds another dimension to reading by allowing children to collaborate with their peers about what they’re reading. In LightSail, every book can have a public chat for every grade level in which children can ask questions, link to text within the book, express themselves with fun emojis, engage in an existing discussion, or start one of their own.'
-        //         },
-        //         {
-        //             image: 'planets/svg/moon-red.svg',
-        //             label: 'Book Clubs',
-        //             note: 'Book clubs foster a love of reading in a positive community atmosphere. Parents and children can participate in LightSail book clubs together, which can be for the duration of a single book or an ongoing series of different books. '
-        //         },
-        //         {
-        //             image: 'planets/svg/moon-yellow.svg',
-        //             label: 'Clubhouse',
-        //             note: 'LightSail knows that sharing a good book with others makes the reading experience richer and more enjoyable, bringing different perspectives and new insights. To encourage this, LightSail has created Clubhouses. A child’s clubhouse is their personal reading-related domain in which they pick the themes and guide the discussions.'
-        //         },
-        //         {
-        //             image: 'planets/svg/moon-blue.svg',
-        //             label: 'Reading Tournaments',
-        //             note: 'From March Madness to video games - we all love a good tournament! LightSail incentifies reading by letting children compete in reading tournaments for badges and other prizes. '
-        //         },
-        //         {
-        //             image: 'planets/svg/moon-purple.svg',
-        //             label: 'Social Sharing of Achievements',
-        //             note: 'Children take pride in sharing their achievements with friends and family, so, with a parent’s permission, they can post their latest success to popular social media platforms like Facebook, Instagram, or Tiktok, or share them within the LightSail platform in Book Club and Clubhouse. Parents also have the opportunity to share their children’s achievements for them.'
-        //         }
-        //     ]
-        // },
-        // {
-        //     orbit: 2,
-        //     position: {
-        //         top: 0,
-        //         left: 0
-        //     },
-        //     image: 'images/15.svg',
-        //     label: 'Other',
-        //     note: '',
-        //     moons: [
-        //         {
-        //             image: 'planets/svg/moon-red.svg',
-        //             label: 'Assignment Module',
-        //             note: 'LightSail has built a comprehensive assignment module covering our four pillars of literacy: reading, writing, vocabulary, and fluency. All assignments have dedicated assignment chats, goals, commenting, highlighters and labels, a Call for Help feature if a child gets stuck, and more.'
-        //         },
-        //         {
-        //             image: 'planets/svg/moon-yellow.svg',
-        //             label: 'Import Content Wizard',
-        //             note: 'Import articles, website pages, pdfs, Word documents, or Google Docs into LightSail using the Import Content Wizard. Assign reading content from virtually any source within the safety of the LightSail platform and integrate it with LightSail’s features such as tracking reading minutes, adding cloze assessments, and more.'
-        //         },
-        //         {
-        //             image: 'planets/svg/moon-blue.svg',
-        //             label: 'LightSail Shared Library',
-        //             note: 'Content you import with the Import Content Wizard is saved to your private drive where it can be edited, redacted, shared with your child, added to Library Collections, and more. '
-        //         },
-        //         {
-        //             image: 'planets/svg/moon-purple.svg',
-        //             label: 'Donate a license',
-        //             note: 'LightSail believes that the gift of literacy is one of the most powerful, life-changing gifts you can give. That is why the LightSail Foundation will donate a license for every license a family purchases to the charity of their choice.'
-        //         },
-        //         {
-        //             image: 'planets/svg/moon-yellow.svg',
-        //             label: 'Donate a license',
-        //             note: 'LightSail believes that the gift of literacy is one of the most powerful, life-changing gifts you can give. That is why the LightSail Foundation will donate a license for every license a family purchases to the charity of their choice.'
-        //         },
-        //         {
-        //             image: 'planets/svg/moon-blue.svg',
-        //             label: 'Search and Advanced Search',
-        //             note: 'LightSail uses predictive search technology to find content based on search queries. Additionally, the user can filter results by subject, genre, topic, classification, and Lexile level, making it easy for parents and children to find the resources they need.'
-        //         }
-        //     ]
-        // },
-        // {
-        //     orbit: 2,
-        //     position: {
-        //         top: 0,
-        //         right: 0
-        //     },
-        //     image: 'images/16.svg',
-        //     label: 'Research',
-        //     note: '???',
-        //     moons: []
-        // }
+
+
+        // 2
+
+        {
+            orbit: 2,
+            position: {
+                bottom: 0,
+                right: 0
+            },
+            image: 'images/13.svg',
+            label: 'Parent Support',
+            note: 'LightSail is serious about improving childrens literacy and is committed to helping parents build their children\'s literacy skills and fluency. To that end, we offer a variety of support options to not only help parents use LightSail to its maximum effectiveness, but answer their questions about literacy, homeschooling, and more.',
+            moons: [
+                {
+                    image: 'planets/svg/moon-yellow.svg',
+                    label: 'Help Videos',
+                    note: 'We have a complete library of help videos at your fingertips within the LightSail platform. Each screen within Lightsail has a play button for the corresponding help video where you can see an explanation of how to use each feature. Looking for something specific? Search our help center and find all videos related to your question.'
+                },
+                {
+                    image: 'planets/svg/moon-blue.svg',
+                    label: 'Webinars',
+                    note: 'LightSail offers a complimentary weekly webinars for subscribers.\nThese webinars are taught by experienced instructional coaches who will guide you through LightSail’s multitude of features to help you understand and use them with maximum effectiveness. Through this forum, you can chat with experienced educators and homeschoolers about your issues and challenges and get answers to your specific questions about growing your children into fully literate adults.'
+                },
+                {
+                    image: 'planets/svg/moon-purple.svg',
+                    label: 'Facebook Group',
+                    note: 'We have a vibrant and engaged online community, hosted by our experienced homeschool experts who will share inside tips and tricks on using LightSail for homeschooling. Parents can interact with other LightSail homeschoolers, ask questions, share ideas, or just hang out and relax.'
+                },
+                {
+                    image: 'planets/svg/moon-red.svg',
+                    label: 'Tech Support',
+                    note: '[Not sure what to specifically focus on for this one. Guidance please.]'
+                }
+            ]
+        },
+        {
+            orbit: 2,
+            position: {
+                bottom: 0,
+                left: 0
+            },
+            image: 'images/14.svg',
+            label: 'Social Features',
+            note: 'Humans are social. And since reading is a uniquely human experience, it can be even better when we share the experience with others. LightSail offers a variety of social, or community-centric, features that capitalize on the fact that shared activities and achievements or a little friendly competition can inspire excitement for reading.',
+            moons: [
+                {
+                    image: 'planets/svg/moon-purple.svg',
+                    label: 'Book Chats',
+                    note: 'The Book Chat feature adds another dimension to reading by allowing children to collaborate with their peers about what they’re reading. In LightSail, every book can have a public chat for every grade level in which children can ask questions, link to text within the book, express themselves with fun emojis, engage in an existing discussion, or start one of their own.'
+                },
+                {
+                    image: 'planets/svg/moon-red.svg',
+                    label: 'Book Clubs',
+                    note: 'Book clubs foster a love of reading in a positive community atmosphere. Parents and children can participate in LightSail book clubs together, which can be for the duration of a single book or an ongoing series of different books. '
+                },
+                {
+                    image: 'planets/svg/moon-yellow.svg',
+                    label: 'Clubhouse',
+                    note: 'LightSail knows that sharing a good book with others makes the reading experience richer and more enjoyable, bringing different perspectives and new insights. To encourage this, LightSail has created Clubhouses. A child’s clubhouse is their personal reading-related domain in which they pick the themes and guide the discussions.'
+                },
+                {
+                    image: 'planets/svg/moon-blue.svg',
+                    label: 'Reading Tournaments',
+                    note: 'From March Madness to video games - we all love a good tournament! LightSail incentifies reading by letting children compete in reading tournaments for badges and other prizes. '
+                },
+                {
+                    image: 'planets/svg/moon-purple.svg',
+                    label: 'Social Sharing of Achievements',
+                    note: 'Children take pride in sharing their achievements with friends and family, so, with a parent’s permission, they can post their latest success to popular social media platforms like Facebook, Instagram, or Tiktok, or share them within the LightSail platform in Book Club and Clubhouse. Parents also have the opportunity to share their children’s achievements for them.'
+                }
+            ]
+        },
+        {
+            orbit: 2,
+            position: {
+                top: 0,
+                left: 0
+            },
+            image: 'images/15.svg',
+            label: 'Other',
+            note: '',
+            moons: [
+                {
+                    image: 'planets/svg/moon-red.svg',
+                    label: 'Assignment Module',
+                    note: 'LightSail has built a comprehensive assignment module covering our four pillars of literacy: reading, writing, vocabulary, and fluency. All assignments have dedicated assignment chats, goals, commenting, highlighters and labels, a Call for Help feature if a child gets stuck, and more.'
+                },
+                {
+                    image: 'planets/svg/moon-yellow.svg',
+                    label: 'Import Content Wizard',
+                    note: 'Import articles, website pages, pdfs, Word documents, or Google Docs into LightSail using the Import Content Wizard. Assign reading content from virtually any source within the safety of the LightSail platform and integrate it with LightSail’s features such as tracking reading minutes, adding cloze assessments, and more.'
+                },
+                {
+                    image: 'planets/svg/moon-blue.svg',
+                    label: 'LightSail Shared Library',
+                    note: 'Content you import with the Import Content Wizard is saved to your private drive where it can be edited, redacted, shared with your child, added to Library Collections, and more. '
+                },
+                {
+                    image: 'planets/svg/moon-purple.svg',
+                    label: 'Donate a license',
+                    note: 'LightSail believes that the gift of literacy is one of the most powerful, life-changing gifts you can give. That is why the LightSail Foundation will donate a license for every license a family purchases to the charity of their choice.'
+                },
+                {
+                    image: 'planets/svg/moon-yellow.svg',
+                    label: 'Donate a license',
+                    note: 'LightSail believes that the gift of literacy is one of the most powerful, life-changing gifts you can give. That is why the LightSail Foundation will donate a license for every license a family purchases to the charity of their choice.'
+                },
+                {
+                    image: 'planets/svg/moon-blue.svg',
+                    label: 'Search and Advanced Search',
+                    note: 'LightSail uses predictive search technology to find content based on search queries. Additionally, the user can filter results by subject, genre, topic, classification, and Lexile level, making it easy for parents and children to find the resources they need.'
+                }
+            ]
+        },
+        {
+            orbit: 2,
+            position: {
+                top: 0,
+                right: 0
+            },
+            image: 'images/16.svg',
+            label: 'Research',
+            note: '???',
+            moons: []
+        }
 
 
     ]
