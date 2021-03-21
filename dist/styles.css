@@ -21,6 +21,9 @@ p {
 h1 {
     margin: 0;
 }
+a {
+    display: block;
+}
 
 
 
@@ -133,6 +136,47 @@ footer {
     transform: translate(-50%, -50%);
 }
 
+
+/*
+    Zoom
+*/
+
+.zoom {
+    position: absolute;
+    right: 2em;
+    top: 50%;
+    width: 3em;
+    transform: translateY(-50%);
+    padding: 4px;
+    color: #0A69D2;
+    background: #FFFFFF;
+    border: 1px solid #D5E1E4;
+    border-radius: 1.5em;
+}
+.zoom a {
+    position: relative;
+    padding-bottom: 100%;
+    border-radius: 50%;
+    background: #FFBC1D;
+}
+.zoom a:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5em;
+    font-weight: 400;
+}
+.zoom a:first-child:before {
+    content: '+';
+}
+.zoom a:last-child:before {
+    content: '-';
+}
+.zoom p {
+    text-align: center;
+    margin: 1.5em 0;
+}
 
 
 
