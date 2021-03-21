@@ -1078,7 +1078,12 @@
         <g class="mm-planet">
             <circle r="85" cx="85" cy="85"/>
             <image x="0" y="0" height="170" width="170" href="<%= dir %>/p2.png"/>
-            <text class="mm-title" x="85" y="85">
+            <image x="<%= 85 - 23.5 %>" y="<%= 85 + 5 %>" height="47" width="47" href="<%= dir %>/video.png" class="mm-video"
+                   data-video-src="https://player.vimeo.com/video/525213904"
+                   data-video-width="640"
+                   data-video-height="352"
+            />
+            <text class="mm-title" x="85" y="80">
                 <tspan>Reading</tspan>
             </text>
             <text class="mm-note">By presenting children with a wide array of content that is both captivating and at just the right reading level, by harnessing the power of adaptive technology to monitor reading progress and assist children with accessing text, and by creating a fun, interactive reading experience - LightSail helps children grow into fully literate adults who possess a lifelong love of reading.</text>
