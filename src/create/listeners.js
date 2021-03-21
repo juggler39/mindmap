@@ -38,14 +38,23 @@ export default function (map) {
         const $circle = $group.querySelector('circle');
         const m = +$group.getAttribute('data-moon-margin');
         const r = +$circle.getAttribute('r') + (m || Config.moon.margin) + Config.moon.r;
-        const animations = Array.from($moons).map(($moon, i) => {
+
+
+        const moonAnimations = Array.from($moons).map(($moon, i) => {
             const a = Math.PI * 2 / $moons.length * i;
             const x = r * Math.cos(a);
             const y = r * Math.sin(a);
             return gsap.to($moon, { x, y, paused: true, duration: .3 })
         })
-        map.animations = map.animations.concat(animations);
-        return { $planet, $group, $next, animations }
+
+        // translate(1867.784543325527 1144)
+
+        const transform = $group.getAttribute('transform').split(' ');
+        const tx = +transform[0].split('(')[1];
+        const ty = +transform[1].split(')')[0];
+
+        map.animations = map.animations.concat(moonAnimations);
+        return { $planet, $group, $next, moonAnimations, tx, ty }
     })
 
 
@@ -69,6 +78,8 @@ export default function (map) {
         const height = +$video.getAttribute('data-video-height');
         if (active.video) map.emit('deactivate:video');
         if (active.note) map.emit('deactivate:note');
+        const $planet = $video.parentNode;
+        if (!active.planet || active.planet.$planet !== $planet) clickPlanet($planet);
         map.emit('activate:video', { $node, video: { src, width, height } });
     }
 
@@ -142,17 +153,6 @@ export default function (map) {
         $overlay.style.display = shown ? 'block' : 'none'
     })
 
-    map.on('activate:planet', planet => {
-        $svg.appendChild(planet.$group);
-        planet.animations.forEach(animation => animation.play());
-        active.planet = planet;
-    })
-
-    map.on('deactivate:planet', () => {
-        active.planet.animations.forEach(animation => animation.reverse());
-        $svg.insertBefore(active.planet.$group, active.planet.$next);
-        active.planet = null;
-    })
 
     map.on('activate:note', note => {
         active.note = note;
@@ -161,6 +161,63 @@ export default function (map) {
     map.on('deactivate:note', () => {
         active.note = null;
     })
+
+
+    function scalePlanet (planet) {
+        const r = planet.$group.querySelector('circle').getAttribute('r');
+        const s = Config.r[0] / r;
+        const $svg = map.$node.querySelector('svg');
+        const {x, y, width, height} = $svg.viewBox.baseVal;
+
+        planet.scaling = {}
+
+        planet.scaling.data = {
+            x: planet.tx,
+            y: planet.ty,
+            s: 1
+        }
+        planet.scaling.animation = gsap.to(planet.scaling.data, {
+            x: width / 2,
+            y: height / 2,
+            s,
+            onUpdate () {
+                planet.$group.setAttribute('transform', `translate(${planet.scaling.data.x - r * planet.scaling.data.s} ${planet.scaling.data.y - r * planet.scaling.data.s}) scale(${planet.scaling.data.s})`)
+            }
+        })
+
+
+    }
+
+    function unScalePlanet (planet) {
+        planet.scaling.animation.kill();
+        const r = +planet.$group.querySelector('circle').getAttribute('r');
+
+        planet.scaling.animation = gsap.to(planet.scaling.data, {
+            x: planet.tx + r,
+            y: planet.ty + r,
+            s: 1,
+            onUpdate () {
+                planet.$group.setAttribute('transform', `translate(${planet.scaling.data.x - r * planet.scaling.data.s} ${planet.scaling.data.y - r * planet.scaling.data.s}) scale(${planet.scaling.data.s})`)
+            }
+        })
+    }
+
+
+
+    map.on('activate:planet', planet => {
+        $svg.appendChild(planet.$group);
+        planet.moonAnimations.forEach(animation => animation.play());
+        scalePlanet(planet)
+        active.planet = planet;
+    })
+
+    map.on('deactivate:planet', () => {
+        active.planet.moonAnimations.forEach(animation => animation.reverse());
+        unScalePlanet(active.planet)
+        $svg.insertBefore(active.planet.$group, active.planet.$next);
+        active.planet = null;
+    })
+
 
 
 }
