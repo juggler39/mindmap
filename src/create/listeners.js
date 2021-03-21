@@ -220,4 +220,30 @@ export default function (map) {
 
 
 
+
+    const $videos = map.$node.querySelectorAll('.mm-video');
+
+    Array.from($videos).forEach($video => {
+
+        const w = 47;
+        const s = 2;
+        const x = +$video.getAttribute('x')
+        const y = +$video.getAttribute('y')
+
+        const data = { s: 1 };
+
+        const animation = gsap.to(data, {
+            s: 1.3,
+            repeat: -1,
+            duration: 0.5,
+            onUpdate () {
+                $video.setAttribute('transform', `translate(${(1 - data.s) * (x + w / 2)} ${(1 - data.s) * (y + w / 2)}) scale(${data.s})`)
+            }
+        }).yoyo(true)
+
+        map.animations.push(animation);
+
+    })
+
+
 }
