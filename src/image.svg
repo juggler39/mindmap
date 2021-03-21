@@ -665,7 +665,12 @@
         <g class="mm-planet">
             <circle r="75" cx="75" cy="75"/>
             <image x="0" y="0" height="150" width="150" href="<%= dir %>/p6.png"/>
-            <text class="mm-title" y="75">
+            <image x="<%= 75 - 23.5 %>" y="<%= 75 + 5 %>" height="47" width="47" href="<%= dir %>/video.png" class="mm-video"
+                   data-video-src="https://player.vimeo.com/video/525262446"
+                   data-video-width="640"
+                   data-video-height="360"
+            />
+            <text class="mm-title" y="60">
                 <tspan x="75" dy="-10">Parental</tspan>
                 <tspan x="75" dy="20">Control</tspan>
             </text>
@@ -1157,7 +1162,12 @@
         <g class="mm-planet">
             <circle r="85" cx="85" cy="85"/>
             <image x="0" y="0" height="170" width="170" href="<%= dir %>/p1.png"/>
-            <text class="mm-title" x="85" y="85">
+            <image x="<%= 85 - 23.5 %>" y="<%= 85 + 5 %>" height="47" width="47" href="<%= dir %>/video.png" class="mm-video"
+                   data-video-src="https://player.vimeo.com/video/524514377"
+                   data-video-width="640"
+                   data-video-height="352"
+            />
+            <text class="mm-title" x="85" y="80">
                 <tspan>Writing</tspan>
             </text>
             <text class="mm-note">Our approach to writing is multi-faceted. LightSail combines features for teaching the mechanics of writing, with modules that guide children through different writing pieces. Creativity and unlimited inspiration are fostered by the unique way LightSail integrates the books your children read and the topics they are already interested in.</text>
