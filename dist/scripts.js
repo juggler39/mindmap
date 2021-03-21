@@ -76,6 +76,7 @@
             width: video.width,
             height: video.height,
         });
+        player.play();
         player.on('timeupdate', function(data) {
             if (data.percent  > 0.998) map.emit('deactivate:video')
         });

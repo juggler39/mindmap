@@ -79,7 +79,7 @@ export default function (map) {
         if (active.video) map.emit('deactivate:video');
         if (active.note) map.emit('deactivate:note');
         const $planet = $video.parentNode;
-        
+
         // if (!active.planet || active.planet.$planet !== $planet) clickPlanet($planet);
         map.emit('activate:video', { $node, video: { src, width, height } });
     }
