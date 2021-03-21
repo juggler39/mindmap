@@ -1,0 +1,61 @@
+.mm svg {
+    width: 100%;
+    height: 100%;
+}
+
+.mm-border {
+    fill: none;
+    stroke-width: 10;
+}
+.mm-border--bg {
+    stroke: #FAFAFA;
+}
+.mm-sun circle,
+.mm-planet circle {
+    fill: #EEE;
+    /*opacity: 0;*/
+}
+.mm-long {
+    /*opacity: 0;*/
+}
+.mm-short {
+    /*opacity: 0;*/
+}
+.mm-internal {
+    opacity: 0;
+}
+.mm-mb {
+    /*opacity: 0;*/
+}
+.mm-line {
+    stroke-width: 6;
+}
+.mm-line--orange {
+    stroke: #FFBC1D;
+}
+
+.mm text {
+    fill: #FFFFFF;
+    /*alignment-baseline: middle;*/
+}
+.mm tspan {
+    text-anchor: middle;
+    alignment-baseline: middle;
+}
+.mm-planet text {
+    font-size: 20px;
+}
+.mm-moon text {
+    font-size: 14px;
+}
+.mm-note {
+    display: none;
+}
+
+.mm-overlay {
+    display: none;
+    fill: rgba(255,255,255,0.7);
+    pointer-events: none;
+}
+
+/*# sourceMappingURL=mind-map.css.map*/

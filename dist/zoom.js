@@ -2,17 +2,20 @@
 
 
     // ----------------------
-    // Zoom
+    // Elements
     // ----------------------
-
-
-
 
     const $map = document.getElementById('map');
     const $zoomIn = document.getElementById('zoom-in');
     const $zoomOut = document.getElementById('zoom-out');
     const $zoomVal = document.getElementById('zoom-val');
     let $svg = null
+
+
+
+    // ----------------------
+    // Scene
+    // ----------------------
 
     const scene = {
         x: 0,
@@ -27,23 +30,10 @@
 
     }
 
-
     function render () {
         $svg.style.transform = `translate(${scene.x}px, ${scene.y}px) scale(${scene.scale})`;
         $zoomVal.textContent = 100 + Math.floor(100 * scene.zoom) + '%';
     }
-
-
-    function resize () {
-        $svg = document.querySelector('#map svg');
-        scene.zoom = 0;
-        scene.x = 0;
-        scene.y = 0;
-    }
-
-    window.addEventListener('resize', resize);
-    resize();
-
 
     function zoomTo (origin, zoom) {
         const { left, top } = $map.getBoundingClientRect();
@@ -54,7 +44,6 @@
         const x0 = (x - scene.x) / scene.scale;
         const y0 = (y - scene.y) / scene.scale;
 
-        // console.log(x, x0)
         console.log(x, (x - scene.x) / scene.scale)
 
         zoom = Math.max(zoom, 0);
@@ -67,51 +56,32 @@
     }
 
 
-    $map.addEventListener('wheel', event => {
-        event.preventDefault();
-        if (event.deltaY > 0 && scene.zoom === 0) return;
-        if (event.deltaY < 0 && scene.zoom === 1) return;
-        const delta = -event.deltaY / 1000;
-        const origin = { x: event.clientX, y: event.clientY };
-        zoomTo(origin, scene.zoom + delta);
-    })
 
+    // ----------------------
+    // Resize
+    // ----------------------
 
-    function getZoomOrigin () {
-        const { left, top, width, height } = $map.getBoundingClientRect();
-        return { x: left + width / 2, y: top + height / 2 }
+    function resize () {
+        $svg = document.querySelector('#map svg');
+        scene.zoom = 0;
+        scene.x = 0;
+        scene.y = 0;
     }
 
-    $zoomIn.addEventListener('click', () => {
-       zoomTo(getZoomOrigin(), scene.zoom + 0.1);
-    })
-
-    $zoomOut.addEventListener('click', () => {
-        zoomTo(getZoomOrigin(), scene.zoom - 0.1);
-    })
+    window.addEventListener('resize', resize);
+    resize();
 
 
 
-
-
+    // ----------------------
+    // Drag & drop
+    // ----------------------
 
     let drag = false;
-
-
-
-    // ----------------------
-    // Helpers
-    // ----------------------
 
     function getEvent (event) {
         return event.touches && event.touches[0] || event.changedTouches && event.changedTouches[0] || event;
     }
-
-
-
-    // ----------------------
-    // Handlers
-    // ----------------------
 
     function start (event) {
         if (event.touches && event.touches.length > 1) return end();
@@ -137,12 +107,6 @@
         drag = false;
     }
 
-
-
-    // ----------------------
-    // Listeners
-    // ----------------------
-
     $map.addEventListener('mousedown', start);
     document.addEventListener('mousemove', move);
     document.addEventListener('mouseup', end);
@@ -151,6 +115,47 @@
     document.addEventListener('touchmove', move, { passive: false });
     document.addEventListener('touchend', end);
     document.addEventListener('touchcancel', end);
+
+
+
+    // ----------------------
+    // Wheel
+    // ----------------------
+
+    $map.addEventListener('wheel', event => {
+        event.preventDefault();
+        if (event.deltaY > 0 && scene.zoom === 0) return;
+        if (event.deltaY < 0 && scene.zoom === 1) return;
+        const delta = -event.deltaY / 1000;
+        const origin = { x: event.clientX, y: event.clientY };
+        zoomTo(origin, scene.zoom + delta);
+    })
+
+
+
+    // ----------------------
+    // Zoom control
+    // ----------------------
+
+    function getZoomOrigin () {
+        const { left, top, width, height } = $map.getBoundingClientRect();
+        return { x: left + width / 2, y: top + height / 2 }
+    }
+
+    $zoomIn.addEventListener('click', () => {
+       zoomTo(getZoomOrigin(), scene.zoom + 0.1);
+    })
+
+    $zoomOut.addEventListener('click', () => {
+        zoomTo(getZoomOrigin(), scene.zoom - 0.1);
+    })
+
+
+
+
+
+
+
 
 
 
