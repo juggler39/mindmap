@@ -23,6 +23,7 @@ h1 {
 }
 a {
     display: block;
+    text-decoration: none;
 }
 
 
@@ -180,6 +181,25 @@ footer {
     text-align: center;
     margin: 1.5em 0;
 }
+
+
+
+/*
+    Switch
+*/
+
+.switch {
+    position: absolute;
+    right: 2em;
+    height: 3em;
+    border-radius: 1.5em;
+    line-height: 3em;
+    padding: 0 1em;
+    background: #FFBC1D;
+    color: #0A69D2;
+    font-weight: 900;
+}
+
 
 
 
